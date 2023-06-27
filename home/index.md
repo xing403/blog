@@ -2,12 +2,17 @@
 title: 首页
 ---
 <div align="center"> 
-    <img src="https://avatars.githubusercontent.com/u/74746021" align="center" height="" width="200" style="border-radius: 50%;" /> </div>       
+  <img src="../assets/images/avatar.jpg" align="center" height="" width="200" style="border-radius: 50%;" />
+</div>
 <h3 align="center">I'm XingRuYu, a student from China 🚀</h3> 
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=xing403&&style=flat-square" align="center" />
+</div>
+<br/>
 
-- 🌱 I’m currently learning Vite and  try examples that interest you
+- 🌱 I'm currently learning Vite and  try examples that interest you
 
-- 🔗 Personal website [ilstudy.vip](http://ilstudy.vip)      
+- 🔗 Personal website [ilstudy.vip](http://ilstudy.vip)
 
 
 ## My Skill
@@ -28,14 +33,8 @@ title: 首页
         <a href="https://www.electronjs.org/" target="_blank">
           <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/electron-original.svg" alt="Electron" width="50" height="50" />
         </a>
-        <a href="https://www.typescriptlang.org/" target="_blank">
-          <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" width="50" height="50" />
-        </a>
         <a href="https://vuejs.org/" target="_blank">
           <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/vuejs-original-wordmark.svg" alt="Vue.js" width="50" height="50" />
-        </a>
-        <a href="https://sass-lang.com/" target="_blank">
-          <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/sass-original.svg" alt="Sass" width="50" height="50" />
         </a>
       </div>
     </td>
@@ -45,15 +44,15 @@ title: 首页
         <a href="https://www.cplusplus.com/" target="_blank">
           <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/cplusplus-original.svg" alt="C++" width="50" height="50" />
         </a>
-        <a href="https://www.javascript.com/" target="_blank">
-          <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" width="50" height="50" />
-        </a>
         <a href="https://www.typescriptlang.org/" target="_blank">
           <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" width="50" height="50" />
         </a>
         <a href="https://www.php.net/" target="_blank">
           <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/php-original.svg" alt="PHP" width="50" height="50" />
-        </a> 
+        </a>
+        <a href="https://www.php.net/" target="_blank">
+          <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/java-original-wordmark.svg" alt="Java" width="50" height="50" />
+        </a>
         <a href="https://nodejs.org/" target="_blank">
           <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js" width="50" height="50" />
         </a>

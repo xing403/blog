@@ -6,7 +6,7 @@ hero:
   description: ''
   tagline: 星如雨的个人博客站点
   image:
-    src: http://ilstudy.vip/logo.png
+    src: /images/logo.png
     alt: blog
   actions:
     - theme: brand

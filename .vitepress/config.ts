@@ -1,6 +1,12 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  head: [
+    ['link', {
+      rel: 'icon',
+      href: '/images/avatar.jpg'
+    }]
+  ],
   lang: 'zh-CN',
   dir: '',
   title: "星如雨",
