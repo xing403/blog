@@ -4,9 +4,16 @@ title: 首页
 <div align="center"> 
   <img src="../assets/images/avatar.jpg" align="center" height="" width="200" style="border-radius: 50%;" />
 </div>
-<h3 align="center">I'm XingRuYu, a student from China 🚀</h3> 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=xing403&&style=flat-square" align="center" />
+<h3 align="center">I'm XingRuYu, a student from China 🚀</h3>
+<div align="center" style="display:flex;justify-content:center;align-items: center;">
+  <div style="margin: 2px">
+    <img src="https://komarev.com/ghpvc/?username=xing403&&style=flat-square" align="center" />
+  </div>
+  <div style="margin: 2px">
+    <a href="https://github.com/xing403" target="_blank"> 
+      <img src="https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white" alt=github style="margin-bottom: 5px;" />
+    </a>
+  </div>
 </div>
 <br/>
 
@@ -81,23 +88,10 @@ title: 首页
   </tr>
 </table>
 
-## Connect with me
-
-<div align="center"> 
-  <a href="https://github.com/xing403" target="_blank"> 
-    <img src="https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white" alt=github style="margin-bottom: 5px;" />
-  </a>
-</div>
-
 ## Github Stats
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=xing403&show_icons=true&count_private=true&hide_border=true" align="center" />
-</div>
-<br/> 
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=xing403&&style=flat-square" align="center" />
 </div>
 <br/>
 

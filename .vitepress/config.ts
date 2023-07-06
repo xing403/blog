@@ -28,6 +28,11 @@ export default defineConfig({
         items: [
           { text: 'PC端和移动端交互事件', link: '/blogs/event' },
         ],
+      },{
+        text: 'resource',
+        items: [
+          { text: '外链', link: '/blogs/resource' },
+        ],
       },
     ],
     socialLinks: [
