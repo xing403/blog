@@ -26,6 +26,7 @@ export default defineConfig({
       {
         text: 'blog pages',
         items: [
+          { text: 'PC端和移动端交互事件', link: '/blogs/event' },
         ],
       },
     ],

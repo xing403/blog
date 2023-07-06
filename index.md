@@ -41,5 +41,15 @@ features:
     title: MineSweeping
     details: Minesweeper game
     link: http://mines.ilstudy.vip/
+  - icon: {
+      light: http://todo.ilstudy.vip/favicon.svg,
+      dark: http://todo.ilstudy.vip/favicon.svg,
+      alt: todo list,
+      width: 30px,
+      height: 30px
+    }
+    title: todo list
+    details: todo list
+    link: http://todo.ilstudy.vip/
 ---
 
