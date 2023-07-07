@@ -105,19 +105,20 @@ const links = [{
   desc:'todo list',
 }]
 </script>
-
-<el-row :gutter="10">
-  <el-col :xl="8" :lg="12" :md="12" :sm="12" :xs="24" v-for="link, index in links" :key="index">
-    <el-card style="margin-bottom:10px">
-      <div style="display: flex;justify-content: space-between;align-items: center;">
-        <div style="margin-right:20px;text-overflow:ellipsis">
-          <el-link :href="link.link" target="_blank" link style="font-size: 20px;font-weight:600;">{{ link.title }}</el-link>
-          <div style="font-size: 12px;margin-top:10px">{{ link.desc }}</div>
+<div style="padding:10px">
+  <el-row :gutter="10">
+    <el-col :xl="8" :lg="12" :md="12" :sm="12" :xs="24" v-for="link, index in links" :key="index">
+      <el-card style="margin-bottom:10px">
+        <div style="display: flex;justify-content: space-between;align-items: center;">
+          <div style="margin-right:20px;text-overflow:ellipsis">
+            <el-link :href="link.link" target="_blank" link style="font-size: 20px;font-weight:600;">{{ link.title }}</el-link>
+            <div style="font-size: 12px;margin-top:10px">{{ link.desc }}</div>
+          </div>
+          <div style="width:75px">
+            <el-avatar :size="75" :src="link.icon" />
+          </div>
         </div>
-        <div style="width:75px">
-          <el-avatar :size="75" :src="link.icon" />
-        </div>
-      </div>
-    </el-card>
-  </el-col>
-</el-row>
+      </el-card>
+    </el-col>
+  </el-row>
+</div>

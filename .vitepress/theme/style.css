@@ -7,7 +7,7 @@
  * Colors
  * -------------------------------------------------------------------------- */
 
- /* :root {
+/* :root {
   --vp-c-brand: #646cff;
   --vp-c-brand-light: #747bff;
   --vp-c-brand-lighter: #9499ff;
@@ -65,9 +65,9 @@
   --vp-custom-block-tip-border: var(--vp-c-brand);
   --vp-custom-block-tip-text: var(--vp-c-brand-darker);
   --vp-custom-block-tip-bg: var(--vp-c-brand-dimm);
-}
+} */
 
-.dark {
+/* .dark {
   --vp-custom-block-tip-border: var(--vp-c-brand);
   --vp-custom-block-tip-text: var(--vp-c-brand-lightest);
   --vp-custom-block-tip-bg: var(--vp-c-brand-dimm);
@@ -80,4 +80,8 @@
 /* .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand) !important;
 } */
-
+@media (min-width: 960px) {
+  .VPNavBar.has-sidebar .content{
+    padding-right: 10px !important;
+  }
+}
