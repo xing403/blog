@@ -1,5 +1,6 @@
-
-# 外链
+---
+title: 外链
+layout: page
 ---
 <script lang="ts" setup>
 const links = [{
@@ -104,8 +105,9 @@ const links = [{
   desc:'todo list',
 }]
 </script>
+
 <el-row :gutter="10">
-  <el-col :xl="12" :lg="12" :md="12" :sm="12" :xs="24" v-for="link, index in links" :key="index">
+  <el-col :xl="8" :lg="12" :md="12" :sm="12" :xs="24" v-for="link, index in links" :key="index">
     <el-card style="margin-bottom:10px">
       <div style="display: flex;justify-content: space-between;align-items: center;">
         <div style="margin-right:20px;text-overflow:ellipsis">
@@ -119,4 +121,3 @@ const links = [{
     </el-card>
   </el-col>
 </el-row>
-

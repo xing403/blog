@@ -26,12 +26,12 @@ export default defineConfig({
       {
         text: 'blog pages',
         items: [
-          { text: 'PC端和移动端交互事件', link: '/blogs/event' },
+          { text: 'PC端和移动端交互事件', link: '/blogs/event/' },
         ],
       },{
         text: 'resource',
         items: [
-          { text: '外链', link: '/blogs/resource' },
+          { text: '外链', link: '/blogs/resource/' },
         ],
       },
     ],

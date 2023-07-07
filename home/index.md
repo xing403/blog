@@ -1,5 +1,6 @@
 ---
 title: 首页
+layout: doc
 ---
 <div align="center"> 
   <img src="../assets/images/avatar.jpg" align="center" height="" width="200" style="border-radius: 50%;" />
