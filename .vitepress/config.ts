@@ -27,6 +27,7 @@ export default defineConfig({
         text: 'blog pages',
         items: [
           { text: 'PC端和移动端交互事件', link: '/blogs/event/' },
+          { text: '实现pdf文件在canvas中展示内容', link: '/blogs/pdf-on-canvas/' },
         ],
       },{
         text: 'resource',
