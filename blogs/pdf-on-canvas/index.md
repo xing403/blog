@@ -1,9 +1,9 @@
 ---
-title: vue3 实现pdf文件在canvas中展示内容
+title: 实现pdf在canvas中展示
 layout: doc
 ---
 
-# vue3 实现pdf文件在canvas中展示内容
+# 实现pdf在canvas中展示
 
 <el-divider />
 <div style='display: flex;gap: 10px;'>

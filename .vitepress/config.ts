@@ -26,13 +26,14 @@ export default defineConfig({
       {
         text: 'blog pages',
         items: [
+          { text: '实现canvas中图片的平移与缩放', link: '/blogs/canvas-drag-image/' },
+          { text: '实现pdf在canvas中展示', link: '/blogs/pdf-on-canvas/' },
           { text: 'PC端和移动端交互事件', link: '/blogs/event/' },
-          { text: '实现pdf文件在canvas中展示内容', link: '/blogs/pdf-on-canvas/' },
         ],
       },{
         text: 'resource',
         items: [
-          { text: '外链', link: '/blogs/resource/' },
+          { text: '外链', link: '/resource/' },
         ],
       },
     ],
