@@ -26,6 +26,7 @@ export default defineConfig({
       {
         text: 'blog pages',
         items: [
+          { text: 'vue3-ts-mqtt 封装', link: '/blogs/vue3-mqtt/' },
           { text: '实现canvas中图片的平移与缩放', link: '/blogs/canvas-drag-image/' },
           { text: '实现pdf在canvas中展示', link: '/blogs/pdf-on-canvas/' },
           { text: 'PC端和移动端交互事件', link: '/blogs/event/' },
