@@ -31,7 +31,17 @@ export default defineConfig({
           { text: '实现pdf在canvas中展示', link: '/blogs/pdf-on-canvas/' },
           { text: 'PC端和移动端交互事件', link: '/blogs/event/' },
         ],
-      },{
+      }, {
+        text: 'npm 仓库',
+        items: [
+          {
+            text: 'xing-ly', link: '/project/xing-ly/',
+            items: [
+              { text: 'xl-canvas-image', link: '/project/xing-ly/components/xl-canvas-image/' },
+            ]
+          },
+        ],
+      }, {
         text: 'resource',
         items: [
           { text: '外链', link: '/resource/' },
