@@ -7,8 +7,7 @@ import 'element-plus/dist/index.css'
 import 'element-plus/theme-chalk/dark/css-vars.css'
 import 'element-plus/theme-chalk/display.css'
 import './style.css'
-
-
+import packageJson from "../../package.json"
 export default {
   extends: Theme,
   Layout: () => {
@@ -21,3 +20,8 @@ export default {
     app.use(XingLy)
   }
 }
+console.log(`%c version %c ${ packageJson.version } `,
+	"color:#FFF;background:#5c5c5c;border-radius:5px 0 0 5px;padding:5px;margin: 5px 0",
+	"color:#FFF;background:#E6A23C;border-radius:0 5px 5px 0;padding:5px;margin: 5px 0"
+);
+
