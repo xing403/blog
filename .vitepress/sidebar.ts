@@ -19,6 +19,12 @@ export const sidebar = [
         ]
       },
     ],
+  },{
+    text: 'electron',
+    items: [
+      { text: '主进程与渲染进程通信', link: '/electron/process-communication/' },
+     
+    ],
   }, {
     text: 'resource',
     items: [
