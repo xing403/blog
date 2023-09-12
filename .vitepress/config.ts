@@ -28,5 +28,8 @@ export default defineConfig({
     
     outline: "deep",
     outlineTitle: '目 录'
+  },
+  rewrites:{
+    'blogs/:pkg/(.*)': ':pkg/(.*)'
   }
 })
