@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { sidebar } from './sidebar'
+
 export default defineConfig({
   head: [
     ['link', {
@@ -25,11 +26,12 @@ export default defineConfig({
     footer: {
       copyright: '2020 - 2023 © Reach - <a href="http://ilstudy.vip" target="_blank">星如雨</a> | <a href="https://beian.miit.gov.cn" target="_blank">豫ICP备2021004680号-1</a>'
     },
-    
+
     outline: "deep",
     outlineTitle: '目 录'
   },
-  rewrites:{
-    'blogs/:pkg/(.*)': ':pkg/(.*)'
+  rewrites: {
+    'blogs/:pkg/(.*)': ':pkg/(.*)',
+    'project/:pkg/(.*)': ':pkg/(.*)'
   }
 })
