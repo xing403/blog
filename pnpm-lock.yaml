@@ -6,14 +6,14 @@ settings:
 
 dependencies:
   element-plus:
-    specifier: ^2.3.7
-    version: 2.3.7(vue@3.3.4)
+    specifier: ^2.3.14
+    version: 2.3.14(vue@3.3.4)
   vue:
     specifier: ^3.3.4
     version: 3.3.4
   xing-ly:
     specifier: ^0.0.11
-    version: 0.0.11(postcss@8.4.29)(vite@4.4.9)
+    version: 0.0.11(postcss@8.4.30)(vite@4.4.9)
 
 devDependencies:
   vitepress:
@@ -632,7 +632,7 @@ packages:
       sirv: 2.0.3
     dev: false
 
-  /@unocss/postcss@0.55.7(postcss@8.4.29):
+  /@unocss/postcss@0.55.7(postcss@8.4.30):
     resolution: {integrity: sha512-53Z/yv/CNdlTqKZQ9gpYRoLZSuzQ28J0SDrGCdzwjLcvHG/FD7/x1S7yxE7cUp/4sjvLL15HSzkWq8vNy6SkwQ==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -643,7 +643,7 @@ packages:
       css-tree: 2.3.1
       fast-glob: 3.3.1
       magic-string: 0.30.3
-      postcss: 8.4.29
+      postcss: 8.4.30
     dev: false
 
   /@unocss/preset-attributify@0.55.7:
@@ -1085,8 +1085,8 @@ packages:
     resolution: {integrity: sha512-jtD6YG370ZCIi/9GTaJKQxWTZD045+4R4hTk/x1UyoqadyJ9x9CgSi1RlVDQF8U2sxLLSnFkCaMihqljHIWgMg==}
     dev: false
 
-  /element-plus@2.3.7(vue@3.3.4):
-    resolution: {integrity: sha512-h6TxclbaLUJxg/Bv5j/ZKsK+K5yadQliw5+R30HWyE69pXlqXTX24oYx+yw3pA4Dy+lqEDi5501FQ0CORk3OSA==}
+  /element-plus@2.3.14(vue@3.3.4):
+    resolution: {integrity: sha512-9yvxUaU4jXf2ZNPdmIxoj/f8BG8CDcGM6oHa9JIqxLjQlfY4bpzR1E5CjNimnOX3rxO93w1TQ0jTVt0RSxh9kA==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
@@ -1465,8 +1465,8 @@ packages:
       picocolors: 1.0.0
       source-map-js: 1.0.2
 
-  /postcss@8.4.29:
-    resolution: {integrity: sha512-cbI+jaqIeu/VGqXEarWkRCCffhjgXc0qjBtXpqJhTBohMUjUQnbBr0xqX3vEKudc4iviTewcJo5ajcec5+wdJw==}
+  /postcss@8.4.30:
+    resolution: {integrity: sha512-7ZEao1g4kd68l97aWG/etQKPKq07us0ieSZ2TnFDk11i0ZfDW2AwKHYU8qv4MZKqN2fdBfg+7q0ES06UA73C1g==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.6
@@ -1583,7 +1583,7 @@ packages:
       mlly: 1.4.2
     dev: false
 
-  /unocss@0.55.7(postcss@8.4.29)(vite@4.4.9):
+  /unocss@0.55.7(postcss@8.4.30)(vite@4.4.9):
     resolution: {integrity: sha512-3W9P7vj2EhSk/4oPCHBS0VgrwSf5zZL6Az1/XARVOpBnRJtCM2szFInYxHkMgt9pkZTsW8SFCuk/g+QIJ6A8tg==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -1599,7 +1599,7 @@ packages:
       '@unocss/cli': 0.55.7
       '@unocss/core': 0.55.7
       '@unocss/extractor-arbitrary-variants': 0.55.7
-      '@unocss/postcss': 0.55.7(postcss@8.4.29)
+      '@unocss/postcss': 0.55.7(postcss@8.4.30)
       '@unocss/preset-attributify': 0.55.7
       '@unocss/preset-icons': 0.55.7
       '@unocss/preset-mini': 0.55.7
@@ -1739,12 +1739,12 @@ packages:
       isexe: 2.0.0
     dev: false
 
-  /xing-ly@0.0.11(postcss@8.4.29)(vite@4.4.9):
+  /xing-ly@0.0.11(postcss@8.4.30)(vite@4.4.9):
     resolution: {integrity: sha512-dOf6XG82/+kqoyZWKubNUTeqbkjee6dPG84TO/obDk8xKair3UP7T7xoDNMZNfr2S3fq6PCy8cA9lFdZZECBnw==}
     dependencies:
       '@iconify-json/mdi': 1.1.54
       '@unocss/reset': 0.55.7
-      unocss: 0.55.7(postcss@8.4.29)(vite@4.4.9)
+      unocss: 0.55.7(postcss@8.4.30)(vite@4.4.9)
       vue: 3.3.4
     transitivePeerDependencies:
       - '@unocss/webpack'

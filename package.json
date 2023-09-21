@@ -24,7 +24,7 @@
     }
   },
   "dependencies": {
-    "element-plus": "^2.3.7",
+    "element-plus": "^2.3.14",
     "vue": "^3.3.4",
     "xing-ly": "^0.0.11"
   }
