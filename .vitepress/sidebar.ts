@@ -15,6 +15,7 @@ export const sidebar = [
     text: '其他blog',
     collapsed: true,
     items: [
+      { text: 'cron 规则', link: '/blogs/others/cron-rules' },
       { text: '数组与字典的相互转换', link: '/blogs/others/Arr2Dict' },
       { text: 'vue3-ts-mqtt 封装', link: '/blogs/others/vue3-mqtt' },
       { text: '实现canvas中图片的平移与缩放', link: '/blogs/others/canvas-drag-image' },
