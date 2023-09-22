@@ -51,5 +51,15 @@ features:
     title: todo list
     details: todo list
     link: http://todo.ilstudy.vip/
+  - icon: {
+      light: http://schedule.ilstudy.vip/favicon.svg,
+      dark: http://schedule.ilstudy.vip/favicon.svg,
+      alt: schedule,
+      width: 30px,
+      height: 30px
+    }
+    title: schedule
+    details: A tool for scheduled tasks
+    link: http://schedule.ilstudy.vip/
 ---
 
