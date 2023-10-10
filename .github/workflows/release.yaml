@@ -5,23 +5,26 @@ on:
     branches:
       - master
 jobs:
-  build-and-deploy:
+  release:
     runs-on: ubuntu-latest
     steps:
-      # 拉取代码
-      - name: Checkout
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
-          persist-credentials: false
+          fetch-depth: 0
 
-      # 生成静态文件
-      - name: Build
-      run: npm install && npm run docs:build
-    
-      # 部署到 GitHub Pages
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+      - name: Install
+        uses: actions/setup-node@v3
         with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: release # 部署到 release 分支
-          FOLDER: .vitepress/dist # release 生成的静态文件存放的地方
+          node-version: 16.x
+      - run: npm i pnpm -g
+      - run: pnpm install
+      
+      - name: Build
+        run: |
+          pnpm run docs:build
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .vitepress/dist
