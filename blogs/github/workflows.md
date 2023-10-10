@@ -46,3 +46,8 @@ jobs:
         WORLD: world
       run: echo $HELLO $WORLD
 ```
+## 使用github-workflows
+1. 将编辑完成的 `.github/workflows/*.yaml` 提交到 github
+2. 提交后，github 会自动触发 workflow 运行
+3. 运行完成后，可以在 Actions 页面查看运行结果
+![result](/images/screenshot/image.png)

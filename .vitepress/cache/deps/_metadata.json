@@ -1,23 +1,23 @@
 {
-  "hash": "9626de7d",
-  "browserHash": "ceda651d",
+  "hash": "4a6ab71d",
+  "browserHash": "428fc6fa",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/.pnpm/vue@3.3.4/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "63fc87df",
+      "fileHash": "aab0901c",
       "needsInterop": false
     },
     "element-plus": {
       "src": "../../../node_modules/.pnpm/element-plus@2.3.14_vue@3.3.4/node_modules/element-plus/es/index.mjs",
       "file": "element-plus.js",
-      "fileHash": "8b6b3ecd",
+      "fileHash": "70259424",
       "needsInterop": false
     },
     "xing-ly": {
-      "src": "../../../node_modules/.pnpm/xing-ly@0.0.13_@iconify-json+mdi@1.1.54_@unocss+reset@0.55.7_unocss@0.55.7_vite@4.4.9/node_modules/xing-ly/dist/xing-ly.es.js",
+      "src": "../../../node_modules/.pnpm/xing-ly@0.0.11_postcss@8.4.30_vite@4.4.9/node_modules/xing-ly/dist/xing-ly.es.js",
       "file": "xing-ly.js",
-      "fileHash": "65b888a3",
+      "fileHash": "670dd4c9",
       "needsInterop": false
     }
   },

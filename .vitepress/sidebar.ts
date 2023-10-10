@@ -12,10 +12,16 @@ export const sidebar = [
       { text: '发送桌面通知', link: '/blogs/electron/send-notification' },
     ],
   }, {
+    text: 'github',
+    collapsed: true,
+    items: [
+      { text: 'workflows', link: '/blogs/github/workflows' },
+      { text: 'pages', link: '/blogs/github/pages' },
+    ]
+  }, {
     text: '其他blog',
     collapsed: true,
     items: [
-      { text: 'GitHub Actions', link: '/blogs/others/github-workflows' },
       { text: 'cron 规则', link: '/blogs/others/cron-rules' },
       { text: '数组与字典的相互转换', link: '/blogs/others/Arr2Dict' },
       { text: 'vue3-ts-mqtt 封装', link: '/blogs/others/vue3-mqtt' },

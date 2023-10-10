@@ -16,7 +16,7 @@ import {
   withModifiers
 } from "./chunk-OKFY4OVN.js";
 
-// node_modules/.pnpm/xing-ly@0.0.13_@iconify-json+mdi@1.1.54_@unocss+reset@0.55.7_unocss@0.55.7_vite@4.4.9/node_modules/xing-ly/dist/xing-ly.es.js
+// node_modules/.pnpm/xing-ly@0.0.11_postcss@8.4.30_vite@4.4.9/node_modules/xing-ly/dist/xing-ly.es.js
 var G = { class: "lx-canvas" };
 var J = ["width", "height"];
 var O = {
@@ -54,7 +54,7 @@ var Z = defineComponent({
     }
   },
   setup(m) {
-    const v = m, i = ref(), n = ref(), h = ref(), t = ref({
+    const v = m, i = ref(), a = ref(), h = ref(), t = ref({
       imgPos: { x: 0, y: 0 },
       // 图片定位
       lastMousePos: { x: 0, y: 0 },
@@ -79,36 +79,36 @@ var Z = defineComponent({
     function p() {
       if (!i.value)
         throw "canvas is null or undefined";
-      n.value = new Image(), n.value.src = v.imageUrl, n.value.onload = function() {
+      a.value = new Image(), a.value.src = v.imageUrl, a.value.onload = function() {
         if (!i.value)
           throw "canvas is null or undefined";
-        t.value.imgXAutoScale = i.value.width / n.value.width, t.value.imgYAutoScale = i.value.height / n.value.height, M();
+        t.value.imgXAutoScale = i.value.width / a.value.width, t.value.imgYAutoScale = i.value.height / a.value.height, M();
       };
     }
     function M() {
       if (!i.value)
         throw "canvas not defined";
       h.value.clearRect(0, 0, i.value.width, i.value.height), h.value.drawImage(
-        n.value,
+        a.value,
         // 规定要使用的图像、画布或视频。
         0,
         0,
         // 开始剪切的 x 坐标位置。
-        n.value.width,
-        n.value.height,
+        a.value.width,
+        a.value.height,
         // 被剪切图像的高度。
         t.value.imgPos.x,
         t.value.imgPos.y,
         // 在画布上放置图像的x、y坐标位置。
-        n.value.width * t.value.imgScale * t.value.imgXAutoScale,
-        n.value.height * t.value.imgScale * t.value.imgYAutoScale
+        a.value.width * t.value.imgScale * t.value.imgXAutoScale,
+        a.value.height * t.value.imgScale * t.value.imgYAutoScale
         // 要使用的图像的宽度、高度
       );
     }
     function b(l) {
       if (l.preventDefault(), t.value.dragging) {
-        const s = _(l.clientX, l.clientY);
-        t.value.imgPos.x += s.x - t.value.lastMousePos.x, t.value.imgPos.y += s.y - t.value.lastMousePos.y, t.value.lastMousePos = JSON.parse(JSON.stringify(s)), M();
+        const r = _(l.clientX, l.clientY);
+        t.value.imgPos.x += r.x - t.value.lastMousePos.x, t.value.imgPos.y += r.y - t.value.lastMousePos.y, t.value.lastMousePos = JSON.parse(JSON.stringify(r)), M();
       }
     }
     function k(l) {
@@ -122,22 +122,22 @@ var Z = defineComponent({
     }
     function A(l) {
       l.preventDefault();
-      var s = _(l.clientX, l.clientY);
+      var r = _(l.clientX, l.clientY);
       const x = l.wheelDelta ? l.wheelDelta : l.deltaY * -40;
       var e = {
-        x: Number(((s.x - t.value.imgPos.x) / t.value.imgScale).toFixed(2)),
-        y: Number(((s.y - t.value.imgPos.y) / t.value.imgScale).toFixed(2))
+        x: Number(((r.x - t.value.imgPos.x) / t.value.imgScale).toFixed(2)),
+        y: Number(((r.y - t.value.imgPos.y) / t.value.imgScale).toFixed(2))
       };
-      x > 0 ? t.value.imgScale += 0.1 : (t.value.imgScale -= 0.1, t.value.imgScale < v.minLimitScale && (t.value.imgScale = v.minLimitScale)), t.value.imgPos.x = (1 - t.value.imgScale) * e.x + (s.x - e.x), t.value.imgPos.y = (1 - t.value.imgScale) * e.y + (s.y - e.y), M();
+      x > 0 ? t.value.imgScale += 0.1 : (t.value.imgScale -= 0.1, t.value.imgScale < v.minLimitScale && (t.value.imgScale = v.minLimitScale)), t.value.imgPos.x = (1 - t.value.imgScale) * e.x + (r.x - e.x), t.value.imgPos.y = (1 - t.value.imgScale) * e.y + (r.y - e.y), M();
     }
-    function _(l, s) {
+    function _(l, r) {
       var e;
       if (!i.value)
         throw "canvas is null or undefined";
       var x = (e = i.value) == null ? void 0 : e.getBoundingClientRect();
       return {
         x: l - x.left - (x.width - i.value.width) / 2,
-        y: s - x.top - (x.height - i.value.height) / 2
+        y: r - x.top - (x.height - i.value.height) / 2
       };
     }
     function N(l) {
@@ -150,7 +150,7 @@ var Z = defineComponent({
       S();
     }), onMounted(() => {
       S();
-    }), (l, s) => (openBlock(), createElementBlock("div", G, [
+    }), (l, r) => (openBlock(), createElementBlock("div", G, [
       createBaseVNode("canvas", {
         ref_key: "canvas",
         ref: i,
@@ -190,11 +190,12 @@ var Z = defineComponent({
 });
 var q = {
   key: 0,
-  class: "text-red i-mdi-flag"
+  "i-mdi-flag": "",
+  "text-red": ""
 };
 var H = {
   key: 0,
-  class: "i-mdi-mine"
+  "i-mdi-mine": ""
 };
 var K = { key: 1 };
 var Q = defineComponent({
@@ -213,14 +214,15 @@ var Q = defineComponent({
       "text-purple-500",
       "text-pink-500"
     ];
-    function i(n) {
-      return n.flagged ? "bg-gray-500/10" : n.revealed ? n.mine ? "text-red" : v[n.adjacentMines] : "bg-gray-500/10 hover:bg-gray-500/20";
+    function i(a) {
+      return a.flagged ? "bg-gray-500/10" : a.revealed ? a.mine ? "text-red" : v[a.adjacentMines] : "bg-gray-500/10 hover:bg-gray-500/20";
     }
-    return (n, h) => (openBlock(), createElementBlock("button", {
-      class: normalizeClass([i(n.block), "border-1 border-gray-500/10"])
+    return (a, h) => (openBlock(), createElementBlock("button", {
+      class: normalizeClass(i(a.block)),
+      border: "1 gray-500/10"
     }, [
-      n.block.flagged ? (openBlock(), createElementBlock("div", q)) : n.block.revealed ? (openBlock(), createElementBlock(Fragment, { key: 1 }, [
-        n.block.mine ? (openBlock(), createElementBlock("div", H)) : (openBlock(), createElementBlock("div", K, toDisplayString(n.block.adjacentMines), 1))
+      a.block.flagged ? (openBlock(), createElementBlock("div", q)) : a.block.revealed ? (openBlock(), createElementBlock(Fragment, { key: 1 }, [
+        a.block.mine ? (openBlock(), createElementBlock("div", H)) : (openBlock(), createElementBlock("div", K, toDisplayString(a.block.adjacentMines), 1))
       ], 64)) : createCommentVNode("", true)
     ], 2));
   }
@@ -230,7 +232,7 @@ var te = defineComponent({
   __name: "index",
   setup(m) {
     let v = false;
-    const i = ref(15), n = ref(0), h = ref("play"), t = ref("general"), o = {
+    const i = ref(15), a = ref(0), h = ref("play"), t = ref("general"), o = {
       simple: {
         mineNum: 10,
         width: 5,
@@ -262,35 +264,35 @@ var te = defineComponent({
       [1, 1]
     ], p = ref([]);
     function M() {
-      h.value = "play", v = false, n.value = 0, i.value = o[t.value].mineNum, p.value = Array.from(
+      h.value = "play", v = false, a.value = 0, i.value = o[t.value].mineNum, p.value = Array.from(
         { length: o[t.value].height },
-        (e, a) => Array.from(
+        (e, n) => Array.from(
           { length: o[t.value].width },
-          (u, r) => ({
-            x: r,
-            y: a,
+          (u, s) => ({
+            x: s,
+            y: n,
             adjacentMines: 0
           })
         )
       );
     }
     function b(e) {
-      e.revealed || ((n.value === i.value && e.flagged || n.value < i.value) && (e.flagged = !e.flagged, n.value += e.flagged ? 1 : -1), C());
+      e.revealed || ((a.value === i.value && e.flagged || a.value < i.value) && (e.flagged = !e.flagged, a.value += e.flagged ? 1 : -1), C());
     }
-    function k(e, a, u) {
-      n.value = 0, w(e, a, u), $(e);
+    function k(e, n, u) {
+      a.value = 0, w(e, n, u), $(e);
     }
-    function w(e, a, u) {
+    function w(e, n, u) {
       if (u === 0)
         return;
-      const r = x(0, o[t.value].width), g = x(0, o[t.value].height);
-      Math.abs(a.x - r) <= 1 && Math.abs(a.y - g) <= 1 || e[g][r].mine ? w(e, a, u) : (e[g][r].mine = true, w(e, a, u - 1));
+      const s = x(0, o[t.value].width), g = x(0, o[t.value].height);
+      Math.abs(n.x - s) <= 1 && Math.abs(n.y - g) <= 1 || e[g][s].mine ? w(e, n, u) : (e[g][s].mine = true, w(e, n, u - 1));
     }
     function $(e) {
-      e.forEach((a) => {
-        a.forEach((u) => {
-          u.mine || N(u).forEach((r) => {
-            r.mine && (u.adjacentMines += 1);
+      e.forEach((n) => {
+        n.forEach((u) => {
+          u.mine || N(u).forEach((s) => {
+            s.mine && (u.adjacentMines += 1);
           });
         });
       });
@@ -299,42 +301,47 @@ var te = defineComponent({
       h.value !== "play" || e.flagged || (e.revealed = true, v || (k(p.value, e, i.value), v = true), e.mine && (h.value = "lost", l()), _(e), C());
     }
     function _(e) {
-      e.adjacentMines || N(e).forEach((a) => {
-        a.revealed || (a.revealed = true, _(a));
+      e.adjacentMines || N(e).forEach((n) => {
+        n.revealed || (n.revealed = true, _(n));
       });
     }
     function N(e) {
-      return S.map(([a, u]) => {
-        const r = e.x + a, g = e.y + u;
-        if (!(r < 0 || g < 0 || r >= o[t.value].width || g >= o[t.value].height))
-          return p.value[g][r];
+      return S.map(([n, u]) => {
+        const s = e.x + n, g = e.y + u;
+        if (!(s < 0 || g < 0 || s >= o[t.value].width || g >= o[t.value].height))
+          return p.value[g][s];
       }).filter(Boolean);
     }
     function C() {
       if (!v || h.value !== "play")
         return;
       const e = p.value.flat();
-      (!e.some((a) => !a.mine && !a.revealed) || e.filter((a) => a.mine).every((a) => a.flagged)) && (h.value = "won");
+      (!e.some((n) => !n.mine && !n.revealed) || e.filter((n) => n.mine).every((n) => n.flagged)) && (h.value = "won");
     }
     function l() {
       p.value.flat().forEach((e) => {
         e.mine && (e.revealed = true);
       });
     }
-    function s(e, a) {
-      return Math.random() * (a - e) + e;
+    function r(e, n) {
+      return Math.random() * (n - e) + e;
     }
-    function x(e, a) {
-      return Math.floor(s(e, a));
+    function x(e, n) {
+      return Math.floor(r(e, n));
     }
-    return M(), (e, a) => (openBlock(), createElementBlock("div", ee, [
-      (openBlock(true), createElementBlock(Fragment, null, renderList(p.value, (u, r) => (openBlock(), createElementBlock("div", {
-        key: r,
-        class: "flex justify-center"
+    return M(), (e, n) => (openBlock(), createElementBlock("div", ee, [
+      (openBlock(true), createElementBlock(Fragment, null, renderList(p.value, (u, s) => (openBlock(), createElementBlock("div", {
+        key: s,
+        flex: "",
+        "justify-center": ""
       }, [
         (openBlock(true), createElementBlock(Fragment, null, renderList(u, (g, Y) => (openBlock(), createBlock(Q, {
           key: Y,
-          class: "h-10 w-10 flex items-center justify-center",
+          "h-10": "",
+          "w-10": "",
+          flex: "",
+          "items-center": "",
+          "justify-center": "",
           block: g,
           onClick: (j) => A(g),
           onContextmenu: withModifiers((j) => b(g), ["prevent"])
@@ -343,14 +350,14 @@ var te = defineComponent({
     ]));
   }
 });
-var ne = {
+var ae = {
   install: function(m) {
-    m.component("xl-canvas-image", Z), m.component("xl-game-mines", te);
+    m.component("xl-canvas-image", Z), m.component("xl-game-mine", te);
   }
 };
 export {
   Z as XlCanvasImage,
-  te as XlGameMines,
-  ne as default
+  te as XlGameMine,
+  ae as default
 };
 //# sourceMappingURL=xing-ly.js.map
