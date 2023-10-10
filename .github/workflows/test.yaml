@@ -1,0 +1,22 @@
+# 定义工作流名称(自定义，非必须)
+name: test-github-action
+# 工作流触发事件(参考https://docs.github.com/zh/actions/using-workflows/events-that-trigger-workflows)
+on: [push]
+# 定义所有的作业项
+jobs:
+  # 定义作业项的 id(自定义)
+  test-github-action:
+    # 定义作业项的 名称(自定义)
+    name: test-github-action
+    # 指定运行所需要的虚拟机环境(必填)
+    runs-on: ubuntu-latest
+    # 指定每个 Job 的运行步骤，可以包含一个或多个步骤。每个步骤都可以指定以下三个字段。
+      # name：步骤名称。
+      # run：该步骤运行的命令或者 action。
+      # env：该步骤所需的环境变量。
+    steps:
+    - name: Print `hello world`
+      env:
+        HELLO: hello
+        WORLD: world
+      run: echo $HELLO $WORLD
