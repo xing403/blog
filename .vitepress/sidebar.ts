@@ -16,6 +16,7 @@ export const sidebar = [
     collapsed: true,
     items: [
       { text: 'workflows', link: '/blogs/github/workflows' },
+      { text: 'token', link: '/blogs/github/token' },
       { text: 'pages', link: '/blogs/github/pages' },
     ]
   }, {
