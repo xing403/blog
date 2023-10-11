@@ -3,7 +3,16 @@ title: GitHub pages2
 layout: doc
 ---
 # GitHub pages2
-第二种配置自动部署方式
+
+<el-divider />
+<div style='display: flex;gap: 10px;'>
+  <el-tag>github</el-tag>
+  <el-tag>pages</el-tag>
+  <el-tag>tools</el-tag>
+  <el-tag>automation</el-tag>
+</div>
+
+> 第二种配置自动部署方式
 ## 1. 创建新仓库
 1. 创建一个新的仓库放置打包的文件
 > 将仓库命名为 `<username>.github.io` -username 为用户名

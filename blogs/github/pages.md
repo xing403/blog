@@ -15,6 +15,10 @@ layout: doc
 ## 关于 GitHub Pages
 GitHub Pages 是一项静态站点托管服务，它直接从 GitHub 上的仓库获取 HTML、CSS 和 JavaScript 文件，（可选）通过构建过程运行文件，然后发布网站。
 
+<el-alert type="info">
+  GitHub Pages 仅支持https协议的图片等资源，如果需要使用http协议的图片，请使用CDN
+</el-alert>
+
 ## 将打包好的文件提交到github
 * 首先要创建一个仓库
 > 提交命令
