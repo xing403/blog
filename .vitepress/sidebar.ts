@@ -18,6 +18,7 @@ export const sidebar = [
       { text: 'workflows', link: '/blogs/github/workflows' },
       { text: 'token', link: '/blogs/github/token' },
       { text: 'pages', link: '/blogs/github/pages' },
+      { text: 'pages2', link: '/blogs/github/pages2' },
     ]
   }, {
     text: '其他blog',

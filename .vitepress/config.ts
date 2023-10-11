@@ -2,7 +2,6 @@ import { defineConfig } from 'vitepress'
 import { sidebar } from './sidebar'
 
 export default defineConfig({
-  base: '/blog/',
   head: [
     ['link', {
       rel: 'icon',

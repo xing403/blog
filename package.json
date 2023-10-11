@@ -1,10 +1,10 @@
 {
   "name": "blog",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "星如雨,xing,blog",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy:github": "deploy.sh",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "element-plus": "^2.3.14",
+    "pnpm": "^8.9.0",
     "vue": "^3.3.4",
     "xing-ly": "^0.0.11"
   }
