@@ -4,9 +4,6 @@ layout: doc
 ---
 # xl-canvas-image
 ## 基础使用
-<script>
-  import {XlCanvasImage} from 'xing-ly'
-</script>
 <xl-canvas-image image-url='/images/avatar.jpg' :width='300' :height='300' />
 
 ::: details

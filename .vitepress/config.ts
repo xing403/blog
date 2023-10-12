@@ -6,6 +6,10 @@ export default defineConfig({
     ['link', {
       rel: 'icon',
       href: '/images/avatar.jpg'
+    }],
+    ['meta', {
+      name: 'referrer',
+      content: 'no-referrer'
     }]
   ],
   lang: 'zh-CN',
