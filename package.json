@@ -1,6 +1,6 @@
 {
   "name": "blog",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "星如雨,xing,blog",
   "type": "module",
   "main": "index.js",

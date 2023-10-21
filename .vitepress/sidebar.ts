@@ -30,6 +30,21 @@ export const sidebar = [
       { text: '实现canvas中图片的平移与缩放', link: '/blogs/others/canvas-drag-image' },
       { text: '实现pdf在canvas中展示', link: '/blogs/others/pdf-on-canvas' },
       { text: 'PC端和移动端交互事件', link: '/blogs/others/event' },
+      { text: 'powershell命令简写', link: '/blogs/others/change-shell-command' },
+    ],
+  }, {
+    text: 'Java',
+    collapsed: true,
+    items: [
+      { text: 'Base64 utils文件', link: '/blogs/java/base64-utils' },
+      { text: 'Redis utils文件', link: '/blogs/java/redis-utils' },
+    ],
+  }, {
+    text: '小游戏',
+    collapsed: true,
+    items: [
+      { text: '贪吃蛇C语言实现', link: '/blogs/games/gluttonous-snake-c' },
+      { text: '俄罗斯方块C语言实现', link: '/blogs/games/tetris-c' },
     ],
   }, {
     text: 'npm 仓库',
