@@ -35,8 +35,6 @@ features:
       light: http://mines.ilstudy.vip/favicon.svg,
       dark: http://mines.ilstudy.vip/favicon.svg,
       alt: board logo,
-      width: 30px,
-      height: 30px
     }
     title: MineSweeping
     details: Minesweeper game
@@ -45,18 +43,14 @@ features:
       light: http://todo.ilstudy.vip/favicon.svg,
       dark: http://todo.ilstudy.vip/favicon.svg,
       alt: todo list,
-      width: 30px,
-      height: 30px
     }
     title: todo list
     details: todo list
     link: http://todo.ilstudy.vip/
   - icon: {
-      light: http://schedule.ilstudy.vip/favicon.svg,
-      dark: http://schedule.ilstudy.vip/favicon.svg,
+      light: http://schedule.ilstudy.vip/favicon.ico,
+      dark: http://schedule.ilstudy.vip/favicon.ico,
       alt: schedule,
-      width: 30px,
-      height: 30px
     }
     title: schedule
     details: A tool for scheduled tasks

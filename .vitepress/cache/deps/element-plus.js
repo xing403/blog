@@ -1,4 +1,7 @@
 import {
+  isVue2
+} from "./chunk-GJMS2ALF.js";
+import {
   Comment,
   Fragment,
   NOOP,
@@ -6,8 +9,6 @@ import {
   Text,
   Transition,
   TransitionGroup,
-  __commonJS,
-  __toESM,
   camelize,
   capitalize,
   cloneVNode,
@@ -88,7 +89,11 @@ import {
   withDirectives,
   withKeys,
   withModifiers
-} from "./chunk-OKFY4OVN.js";
+} from "./chunk-YWUAQ65J.js";
+import {
+  __commonJS,
+  __toESM
+} from "./chunk-UXIASGQL.js";
 
 // node_modules/.pnpm/dayjs@1.11.9/node_modules/dayjs/dayjs.min.js
 var require_dayjs_min = __commonJS({
@@ -875,9 +880,6 @@ var composeEventHandlers = (theirsHandler, oursHandler, { checkForDefaultPrevent
 var whenMouse = (handler) => {
   return (e) => e.pointerType === "mouse" ? handler(e) : void 0;
 };
-
-// node_modules/.pnpm/vue-demi@0.14.5_vue@3.3.4/node_modules/vue-demi/lib/index.mjs
-var isVue2 = false;
 
 // node_modules/.pnpm/@vueuse+shared@9.13.0_vue@3.3.4/node_modules/@vueuse/shared/index.mjs
 var __defProp$9 = Object.defineProperty;

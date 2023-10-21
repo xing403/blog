@@ -14,9 +14,10 @@ import {
   toDisplayString,
   watch,
   withModifiers
-} from "./chunk-OKFY4OVN.js";
+} from "./chunk-YWUAQ65J.js";
+import "./chunk-UXIASGQL.js";
 
-// node_modules/.pnpm/xing-ly@0.0.11_postcss@8.4.30_vite@4.4.9/node_modules/xing-ly/dist/xing-ly.es.js
+// node_modules/.pnpm/xing-ly@0.0.11_postcss@8.4.30_vite@4.5.0/node_modules/xing-ly/dist/xing-ly.es.js
 var G = { class: "lx-canvas" };
 var J = ["width", "height"];
 var O = {

@@ -3,18 +3,19 @@ import { h } from 'vue'
 import ElementPlus from 'element-plus'
 import XingLy from 'xing-ly'
 import Theme from 'vitepress/theme'
+import Layout from './Layout.vue'
 import 'element-plus/dist/index.css'
 import 'element-plus/theme-chalk/dark/css-vars.css'
 import 'element-plus/theme-chalk/display.css'
+
+import './rainbow.css'
 import './style.css'
+
 import packageJson from "../../package.json"
+
 export default {
-  extends: Theme,
-  Layout: () => {
-    return h(Theme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
-    })
-  },
+  ...Theme,
+  Layout: () => h(Layout),
   enhanceApp({ app, router, siteData }) {
     app.use(ElementPlus)
     app.use(XingLy)
