@@ -25,9 +25,9 @@
     }
   },
   "dependencies": {
-    "element-plus": "^2.3.14",
-    "pnpm": "^8.9.0",
-    "vue": "^3.3.4",
+    "element-plus": "^2.4.1",
+    "pnpm": "^8.9.2",
+    "vue": "^3.3.6",
     "xing-ly": "^0.0.11"
   }
 }
