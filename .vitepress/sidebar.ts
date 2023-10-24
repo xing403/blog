@@ -94,7 +94,7 @@ export const sidebar = [
   }, {
     text: 'resource',
     items: [
-      { text: '外链', link: '/resource/' },
+      { text: '外链', link: '/pages/resource/' },
     ],
   },
 ]

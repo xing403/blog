@@ -7,12 +7,7 @@ const links = [{
   title:'流星蝴蝶没有剑',
   link:'http://wx0725.top',
   icon:'http://wx0725.top/favicon.ico',
-  desc:'牛B学长',
-}, {
-  title:'星如雨',
-  link:'https://blog.csdn.net/qq_46269098',
-  icon:'http://ilstudy.vip/favicon.ico',
-  desc:'个人CSDN',
+  desc:'学长站点',
 }, {
   title:'星如雨',
   link:'https://blog.csdn.net/qq_46269098',
@@ -22,7 +17,7 @@ const links = [{
   title:'deviantart',
   link:'https://www.deviantart.com',
   icon:'http://ilstudy.vip/favicon.ico',
-  desc:'鼠标样式库(需翻墙)',
+  desc:'鼠标样式库(科学上网)',
 }, {
   title:'鼠标样式',
   link:'https://custom-cursor.com',
