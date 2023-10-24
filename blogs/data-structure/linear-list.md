@@ -1,0 +1,38 @@
+---
+title: 线性表
+layout: doc
+---
+# 线性表
+<el-divider />
+<div style='display: flex;gap: 10px;'>
+  <el-tag>data structure</el-tag>
+</div>
+
+## 线性表的定义
+线性表是具有n个数据元素的有限序列，其中n为线性表的长度，当n=0时，线性表是空表，若用L表示线性表：
+
+<p align="center">L = {a1,a2,a3,...,an}</p>
+
+其中a1为第一个数据元素，又称表头元素，an为最后一个数据元素，又称表尾元素；除第一个元素外，每个元素都有唯一的前驱；除最后一个元素，每个元素都有唯一的后继。
+
+## 线性表的特点
+
+* 表中元素个数有限
+* 表中元素具有逻辑上的顺序性，表中元素都有先后顺序
+* 表中元素都是数据元素，每个元素都是单个元素
+* 表中元素数据类型相同，即：每个元素占有空间大小相同
+* 表中元素具有抽象性，即：仅讨论元素之间的逻辑关系，而不考虑元素究竟表达什么内容
+
+## 线性表的基本操作
+```cpp
+InitList(&L) // 初始化表
+ListInsert(&L,i,data)` // 插入操作，将元素插入到第i个位置
+ListDelete(&L,i,&data)` // 删除操作，删除第i个元素
+ListModify(&L,i,data)` // 修改操作
+ListFindByValue(&L,data)` // 查找操作，按值查找
+ListFindByIndex(&L,i,&data)` // 查找操作，按位置查找
+ListDestory(&L)` // 销毁表
+getLength(L)` // 获取表长度
+Empty(L)` // 线性表判空
+```
+
