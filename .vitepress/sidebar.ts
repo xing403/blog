@@ -4,6 +4,7 @@ export const sidebar = [
     text: 'vue-vite',
     items: [
       { text: '创建vue项目', link: '/blogs/vue-vite/create-vue' },
+      { text: 'defineProps & defineEmits', link: '/blogs/vue-vite/props-emits' },
     ],
   }, {
     text: 'electron',
