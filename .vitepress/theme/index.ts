@@ -11,7 +11,7 @@ import 'element-plus/theme-chalk/display.css'
 import './rainbow.css'
 import './style.css'
 
-import packageJson from "../../package.json"
+import pkg from "../../package.json"
 
 export default {
   ...Theme,
@@ -21,8 +21,12 @@ export default {
     app.use(XingLy)
   }
 }
-console.log(`%c version %c ${ packageJson.version } `,
+console.log(`%c author %c ${ pkg.author } `,
 	"color:#FFF;background:#5c5c5c;border-radius:5px 0 0 5px;padding:5px;margin: 5px 0",
 	"color:#FFF;background:#E6A23C;border-radius:0 5px 5px 0;padding:5px;margin: 5px 0"
+);
+console.log(`%c github %c ${ pkg.repository.url } `,
+	"color:#FFF;background:#5c5c5c;border-radius:5px 0 0 5px;padding:5px;margin: 5px 0",
+	"color:#FFF;background:#409eff;border-radius:0 5px 5px 0;padding:5px;margin: 5px 0"
 );
 
