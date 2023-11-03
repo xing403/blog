@@ -7,6 +7,11 @@ export const sidebar = [
       { text: 'defineProps & defineEmits', link: '/blogs/vue-vite/props-emits' },
     ],
   }, {
+    text: 'plugins',
+    items: [
+      { text: 'plop 创建模板文件', link: '/blogs/plugins/plop' },
+    ],
+  }, {
     text: 'electron',
     items: [
       { text: '主进程与渲染进程通信', link: '/blogs/electron/process-communication' },
@@ -33,7 +38,7 @@ export const sidebar = [
       { text: '实现pdf在canvas中展示', link: '/blogs/others/pdf-on-canvas' },
       { text: 'PC端和移动端交互事件', link: '/blogs/others/event' },
       { text: 'powershell命令简写', link: '/blogs/others/change-shell-command' },
-      
+
     ],
   }, {
     text: 'Java',
