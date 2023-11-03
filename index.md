@@ -32,13 +32,13 @@ features:
     link: https://avatar.ilstudy.vip
   
   - icon: {
-      light: http://mines.ilstudy.vip/favicon.svg,
-      dark: http://mines.ilstudy.vip/favicon.svg,
-      alt: board logo,
+      light: http://games.ilstudy.vip/favicon.svg,
+      dark: http://games.ilstudy.vip/favicon.svg,
+      alt: games,
     }
-    title: MineSweeping
-    details: Minesweeper game
-    link: http://mines.ilstudy.vip/
+    title: games
+    details: games collection
+    link: http://games.ilstudy.vip/
   - icon: {
       light: http://todo.ilstudy.vip/favicon.svg,
       dark: http://todo.ilstudy.vip/favicon.svg,
