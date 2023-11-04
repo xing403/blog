@@ -11,20 +11,10 @@ const links = [{
 }, {
   title:'星如雨',
   link:'https://blog.csdn.net/qq_46269098',
-  icon:'http://ilstudy.vip/favicon.ico',
+  icon:'/images/avatar.jpg',
   desc:'个人CSDN',
 }, {
-  title:'deviantart',
-  link:'https://www.deviantart.com',
-  icon:'http://ilstudy.vip/favicon.ico',
-  desc:'鼠标样式库(科学上网)',
-}, {
-  title:'鼠标样式',
-  link:'https://custom-cursor.com',
-  icon:'http://ilstudy.vip/favicon.ico',
-  desc:'鼠标样式',
-}, {
-  title:'freecodecamp',
+  title:'free-code-camp',
   link:'https://chinese.freecodecamp.org/',
   icon:'https://chinese.freecodecamp.org/favicon-32x32.png',
   desc:'网页学习练习站点',
@@ -46,7 +36,7 @@ const links = [{
 }, {
   title:'Vue弹幕项目',
   link:'http://dm.project.ilstudy.vip',
-  icon:'http://ilstudy.vip/favicon.ico',
+  icon:'/images/avatar.jpg',
   desc:'一个可以发送实时弹幕的小项目',
 }, {
   title:'阿里云镜像库',
@@ -59,25 +49,25 @@ const links = [{
   icon:'https://mirrors.tuna.tsinghua.edu.cn/static/img/favicon.png',
   desc:'清华大学开源镜像',
 }, {
-  title:'ilovepdf',
+  title:'i-love-pdf',
   link:'https://www.ilovepdf.com/zh-cn',
   icon:'https://www.ilovepdf.com/img/favicons-pdf/favicon-32x32.png',
-  desc:'免费的pdf格式转换',
+  desc:'PDF格式转换',
+}, {
+  title:'i-love-img',
+  link:'https://www.iloveimg.com/zh-cn',
+  icon:'https://www.iloveimg.com/img/favicons-img/favicon-16x16.png',
+  desc:'IMG格式处理',
 }, {
   title:'unoCSS',
   link:'https://unocss.dev/',
   icon:'https://unocss.dev/favicon.svg',
   desc:'unoCSS 原子化CSS样式',
 }, {
-  title:'icones',
+  title:'icons',
   link:'https://icones.js.org/',
   icon:'https://icones.js.org/favicon.svg',
-  desc:'统一格式icons 图标库 上千种库图标共选择',
-}, {
-  title:'blog',
-  link:'http://blog.ilstudy.vip',
-  icon:'http://ilstudy.vip/favicon.ico',
-  desc:'星如雨静态博客站点',
+  desc:'统一格式 icons 图标库 上千种库图标共选择',
 }, {
   title:'board',
   link:'http://board.ilstudy.vip',
@@ -89,10 +79,10 @@ const links = [{
   icon:'https://avatar.ilstudy.vip/favicon.svg',
   desc:'随机头像',
 }, {
-  title:'mines',
-  link:'http://mines.ilstudy.vip',
-  icon:'http://mines.ilstudy.vip/favicon.svg',
-  desc:'扫雷游戏',
+  title:'games',
+  link:'http://games.ilstudy.vip',
+  icon:'http://games.ilstudy.vip/favicon.svg',
+  desc:'游戏',
 }, {
   title:'todo',
   link:'http://todo.ilstudy.vip',
@@ -100,18 +90,18 @@ const links = [{
   desc:'todo list',
 }]
 </script>
-<div style="padding:10px">
+<div style="padding:10px;margin:0 30px">
   <el-row :gutter="10">
     <el-col :xl="8" :lg="12" :md="12" :sm="12" :xs="24" v-for="link, index in links" :key="index">
-      <el-card style="margin-bottom:10px">
+      <el-card style="margin-bottom:10px" shadow="hover">
+        <template #header>
+          <el-link :href="link.link" target="_blank" link v-text="link.title" style="font-size: 20px;font-weight:600;"/>
+        </template>
         <div style="display: flex;justify-content: space-between;align-items: center;">
-          <div style="margin-right:20px;text-overflow:ellipsis">
-            <el-link :href="link.link" target="_blank" link style="font-size: 20px;font-weight:600;">{{ link.title }}</el-link>
-            <div style="font-size: 12px;margin-top:10px">{{ link.desc }}</div>
-          </div>
-          <div style="width:75px">
-            <el-avatar :size="75" :src="link.icon" />
-          </div>
+          <div style="margin-right:20px;text-overflow:ellipsis" v-text="link.desc" />
+          <el-avatar :size="75" :src="link.icon" shape="square">
+            <img src="/images/avatar.jpg"/>
+          </el-avatar>
         </div>
       </el-card>
     </el-col>
