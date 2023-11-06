@@ -15,4 +15,5 @@ git add .
 git commit -m 'deploy'
 echo git push -f git@github.com:xing403/xing403.github.io.git master
 git push -f git@github.com:xing403/xing403.github.io.git master
+git push -f git@gitee.com:xing403/xing403.git master
 echo finish
