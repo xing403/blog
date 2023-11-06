@@ -82,6 +82,9 @@
 } */
 @media (min-width: 960px) {
   .VPNavBar.has-sidebar .content{
-    padding-right: 10px !important;
+    /* padding-right: 10px !important; */
   }
+}
+.el-avatar {
+  --el-avatar-bg-color: transparent !important;
 }

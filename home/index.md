@@ -3,7 +3,7 @@ title: 首页
 layout: doc
 ---
 <div align="center"> 
-  <img src="../assets/images/avatar.jpg" align="center" height="" width="200" style="border-radius: 50%;" />
+  <img src="/images/avatar.jpg" align="center" height="" width="200" style="border-radius: 50%;" />
 </div>
 <h3 align="center">I'm XingRuYu, a student from China 🚀</h3>
 <div align="center" style="display:flex;justify-content:center;align-items: center;">
