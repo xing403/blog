@@ -14,12 +14,12 @@ layout: doc
 [Node.js官网下载](http://nodejs.cn/download/) 
 
 ```shell
-# 配置源
+### 配置源
 npm config set registry https://registry.npm.taobao.org
-# 查看源配置
+### 查看源配置
 npm config get registry
 ```
-# 安装脚手架 Vue@cli
+## 安装脚手架 Vue@cli
 
 [Vue-Cli中文站点](https://cli.vuejs.org/zh/) 
 
@@ -34,7 +34,7 @@ npm install -g @vue/cli
 vue --version
 ~~~
 ![](https://raw.githubusercontent.com/xing403/images-repo/main/assets/website/20220307232511.png)
-# 创建vue项目
+## 创建vue项目
 > 选择项目的保存路径，在这个文件夹的路径栏输入`cmd`
 命令：`vue create object_name`
 * object_name: 为项目的名称，会自动创建一个和项目名称一样的目录

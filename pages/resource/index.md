@@ -34,11 +34,6 @@ const links = [{
   icon:'https://www.cs.usfca.edu/~galles/visualization/favicon.ico',
   desc:'数据结构可视化工具',
 }, {
-  title:'Vue弹幕项目',
-  link:'http://dm.project.ilstudy.vip',
-  icon:'/images/avatar.jpg',
-  desc:'一个可以发送实时弹幕的小项目',
-}, {
   title:'阿里云镜像库',
   link:'https://developer.aliyun.com/mirror/',
   icon:'https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico',
@@ -68,31 +63,11 @@ const links = [{
   link:'https://icones.js.org/',
   icon:'https://icones.js.org/favicon.svg',
   desc:'统一格式 icons 图标库 上千种库图标共选择',
-}, {
-  title:'board',
-  link:'http://board.ilstudy.vip',
-  icon:'http://board.ilstudy.vip/favicon.svg',
-  desc:'画板',
-}, {
-  title:'avatar',
-  link:'https://avatar.ilstudy.vip',
-  icon:'https://avatar.ilstudy.vip/favicon.svg',
-  desc:'随机头像',
-}, {
-  title:'games',
-  link:'http://games.ilstudy.vip',
-  icon:'http://games.ilstudy.vip/favicon.svg',
-  desc:'游戏',
-}, {
-  title:'todo',
-  link:'http://todo.ilstudy.vip',
-  icon:'http://todo.ilstudy.vip/favicon.svg',
-  desc:'todo list',
 }]
 </script>
 <div style="padding:10px;margin:0 30px">
   <el-row :gutter="10">
-    <el-col :xl="8" :lg="12" :md="12" :sm="12" :xs="24" v-for="link, index in links" :key="index">
+    <el-col :xl="6" :lg="8" :md="12" :sm="12" :xs="24" v-for="link, index in links" :key="index">
       <el-card style="margin-bottom:10px" shadow="hover">
         <template #header>
           <el-link :href="link.link" target="_blank" link v-text="link.title" style="font-size: 20px;font-weight:600;"/>

@@ -10,8 +10,11 @@ hero:
     alt: blog
   actions:
     - theme: brand
-      text: 详细内容
+      text: 简介
       link: /home/
+    - theme: alt
+      text: GitHub
+      link: https://github.com/xing403
 features:
   - icon: {
       light: http://board.ilstudy.vip/favicon.svg,

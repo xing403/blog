@@ -10,7 +10,7 @@ layout: doc
 
 > 在这里你可以使用到已经封装好的部分组件
 
-现已内置 `element-plus`
+现已内置 `element-plus` 组件
 
 ## 安装命令
 ~~~shell
@@ -31,6 +31,8 @@ npm install xing-ly
 import { createApp } from 'vue'
 import XingLy from 'xing-ly'
 import App from './App.vue'
+
+import 'xing-ly/dist/style.css' // 引入样式
 
 createApp(App)
 .use(XingLy)
