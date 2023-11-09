@@ -97,7 +97,8 @@ export const sidebar = [
       {
         text: 'xing-ly', link: '/project/xing-ly/',
         items: [
-          { text: 'xl-canvas-image', link: '/project/xing-ly/components/xl-canvas-image/' },
+          { text: 'canvas-image', link: '/project/xing-ly/components/canvas-image/' },
+          { text: 'qr-code', link: '/project/xing-ly/components/qr-code/' },
         ]
       },
     ],

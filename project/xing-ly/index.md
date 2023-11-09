@@ -10,13 +10,14 @@ layout: doc
 
 > 在这里你可以使用到已经封装好的部分组件
 
+现已内置 `element-plus`
+
 ## 安装命令
 ~~~shell
 npm install xing-ly
 ~~~
 ## 引用组件
 ### 按需引用
-> `ComponentName` 可参考 [可使用组件列表](#组件列表)
 ~~~vue
 <script>
   import { ComponentName } from 'xing-ly'
@@ -36,10 +37,3 @@ createApp(App)
 .mount('#app')
 
 ~~~
-
-
-## 组件列表
-
-| 组件名 | 描述 |
-| :----: | :----: |
-| xl-canvas-image | 图片在canvas中平移与缩放 |
