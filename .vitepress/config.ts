@@ -1,11 +1,12 @@
 import { defineConfig } from 'vitepress'
-import { sidebar } from './sidebar'
 import { nav } from './nav'
+import { sidebar } from './sidebar'
+
 export default defineConfig({
   head: [['link', {
     rel: 'icon',
     href: '/images/avatar.jpg'
-  }], 
+  }],
   // ['meta', {
   //   name: 'referrer',
   //   content: 'no-referrer'

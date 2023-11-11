@@ -6,13 +6,25 @@ layout: doc
   <img src="/images/avatar.jpg" align="center" height="" width="200" style="border-radius: 50%;" />
 </div>
 <h3 align="center">I'm XingRuYu, a student from China 🚀</h3>
-<div align="center" style="display:flex;justify-content:center;align-items: center;">
-  <div style="margin: 2px">
-    <img src="https://komarev.com/ghpvc/?username=xing403&&style=flat-square" align="center" />
+<div align="center" style="margin-top:15px">
+  <a href="/" title="ilstudy.vip">
+    <img src="/images/slogan.svg" alt="xing403" />
+  </a>
+</div>
+<div style="display:flex;justify-content:center;align-items: center;gap:10px;margin-top:1em">
+  <div>
+    <a href="https://github.com/xing403" target="_blank" title="github" > 
+      <img src="https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white" />
+    </a>
   </div>
-  <div style="margin: 2px">
-    <a href="https://github.com/xing403" target="_blank"> 
-      <img src="https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white" alt=github style="margin-bottom: 5px;" />
+  <div>
+    <a href="https://gitee.com/xing403" target="_blank" title="gitee" > 
+      <img src="https://img.shields.io/badge/gitee-%23FF1D02.svg?&style=for-the-badge&logo=gitee&logoColor=white" />
+    </a>
+  </div>
+  <div>
+    <a href="https://blog.csdn.net/qq_46269098" target="_blank" title="gitee" > 
+      <img src="https://img.shields.io/badge/csdn-%23FF5510.svg?&style=for-the-badge&logo=c&logoColor=white" />
     </a>
   </div>
 </div>
@@ -27,7 +39,8 @@ layout: doc
 <table>
   <tr>
     <td valign="top" style="width:330px">
-      <h3>Frontend</h3>
+      <h3  style="text-align: center">Frontend</h3>
+      <br/>
       <div align="center" style="disply:flex;justify-content: space-between;">
         <a href="https://getbootstrap.com/docs/3.4/javascript/" target="_blank">
           <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg" alt="Bootstrap" width="50" height="50"/>
@@ -46,8 +59,9 @@ layout: doc
         </a>
       </div>
     </td>
-    <td valign="top" width="33%">
-      <h3>Backend</h3>
+    <td valign="top" style="width: calc(100% / 3)">
+      <h3 style="text-align: center">Backend</h3>
+      <br/>
       <div align="center">
         <a href="https://www.cplusplus.com/" target="_blank">
           <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/cplusplus-original.svg" alt="C++" width="50" height="50" />
@@ -72,8 +86,9 @@ layout: doc
         </a>
       </div>
     </td>
-    <td valign="top" width="33%">
-      <h3>DevOps</h3>
+    <td valign="top" style="width: calc(100% / 3)">
+      <h3 style="text-align: center">DevOps</h3>
+      <br/>
       <div align="center">
         <a href="https://www.linux.org/" target="_blank">
           <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/linux-original.svg" alt="Linux" width="50" height="50" />

@@ -1,9 +1,9 @@
 <!-- .vitepress/theme/Layout.vue -->
 
 <script setup lang="ts">
-import { useData } from 'vitepress'
-import DefaultTheme from 'vitepress/theme'
-import { nextTick, provide } from 'vue'
+import { useData } from 'vitepress';
+import DefaultTheme from 'vitepress/theme';
+import { nextTick, provide } from 'vue';
 
 const { Layout } = DefaultTheme
 const { isDark } = useData()
@@ -26,7 +26,7 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
     )}px at ${x}px ${y}px)`
   ]
 
-  await document.startViewTransition(async () => {
+  await (document as any).startViewTransition(async () => {
     isDark.value = !isDark.value
     await nextTick()
   }).ready
