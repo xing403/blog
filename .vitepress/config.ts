@@ -5,10 +5,12 @@ export default defineConfig({
   head: [['link', {
     rel: 'icon',
     href: '/images/avatar.jpg'
-  }], ['meta', {
-    name: 'referrer',
-    content: 'no-referrer'
-  }], ['script', {
+  }], 
+  // ['meta', {
+  //   name: 'referrer',
+  //   content: 'no-referrer'
+  // }], 
+  ['script', {
     src: 'https://hm.baidu.com/hm.js?17dab9a98b7784c14b4abbfeb30df854'
   }]],
   lang: 'zh-CN',
