@@ -38,4 +38,5 @@ export default defineConfig({
     outline: "deep",
     outlineTitle: '目 录'
   },
+  srcExclude:[ '**/README.md']
 })
