@@ -7,7 +7,7 @@ export function nav() {
     text: 'project',
     items: [{
       text: 'xing-ly',
-      link: '/project/xing-ly/'
+      link: '/project/xing-ly/introduction'
     }, {
       text: 'schedule',
       link: '/project/schedule/introduction'
@@ -35,6 +35,6 @@ export function nav() {
     }]
   }, {
     text: '资源导航',
-    link: '/pages/resource/',
+    link: '/pages/resource',
   }]
 }

@@ -1,5 +1,5 @@
 ---
-title: \@Data 注解
+title: '@Data 注解'
 layout: doc
 ---
 # @Data 注解

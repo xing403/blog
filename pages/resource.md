@@ -1,6 +1,7 @@
 ---
 title: 外链
 layout: page
+sidebar: false
 ---
 <script lang="ts" setup>
 const links = [{

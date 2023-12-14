@@ -40,6 +40,7 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
     }
   )
 })
+console.log(useData())
 </script>
 
 <template>
