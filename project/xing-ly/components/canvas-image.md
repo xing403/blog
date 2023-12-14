@@ -4,7 +4,7 @@ layout: doc
 ---
 # xl-canvas-image
 <script setup>
-  import CanvasImageDemo from '/demo-test/canvas-image.vue'
+  import CanvasImageDemo from '/examples/canvas-image.vue'
   import { ref } from 'vue'
   const size = ref(100)
 </script>

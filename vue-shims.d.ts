@@ -1,3 +1,5 @@
+/// <reference types="vitest" />
+
 declare module '*.vue' {
   import { Component } from 'vue'
   const _default: Component

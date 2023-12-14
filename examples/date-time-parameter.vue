@@ -1,0 +1,121 @@
+<script setup lang="ts">
+import { ref } from 'vue'
+
+const data = ref([{
+  identification: 'YY',
+  example: '18',
+  description: '年，两位数',
+}, {
+  identification: 'YYYY',
+  example: '2018',
+  description: '年，四位数',
+}, {
+  identification: 'M',
+  example: '1-12',
+  description: '月',
+}, {
+  identification: 'MM',
+  example: '01-12',
+  description: '月，两位数',
+}, {
+  identification: 'MMM',
+  example: 'Jan-Dec',
+  description: '月，英文缩写',
+}, {
+  identification: 'MMMM',
+  example: 'January-December',
+  description: '月，英文全称',
+}, {
+  identification: 'D',
+  example: '1-31',
+  description: '日',
+}, {
+  identification: 'DD',
+  example: '01',
+  description: '日，两位数',
+}, {
+  identification: 'd',
+  example: '0-6',
+  description: '一周中的一天，星期天是 0',
+}, {
+  identification: 'dd',
+  example: 'Su-Sa',
+  description: '星期，最简写的星期几',
+}, {
+  identification: 'ddd',
+  example: 'Sun-Sat',
+  description: '简写的星期几',
+}, {
+  identification: 'dddd',
+  example: 'Sunday-Saturday',
+  description: '星期几，英文全称',
+}, {
+  identification: 'H',
+  example: '0-23',
+  description: '小时',
+}, {
+  identification: 'HH',
+  example: '00-23',
+  description: '小时，两位数',
+}, {
+  identification: 'h',
+  example: '1-12',
+  description: '12小时制小时',
+}, {
+  identification: 'hh',
+  example: '01-12',
+  description: '12小时制小时, 两位数',
+}, {
+  identification: 'm',
+  example: '0-59',
+  description: '分钟',
+}, {
+  identification: 'mm',
+  example: '00-59',
+  description: '分钟，两位数',
+}, {
+  identification: 's',
+  example: '0-59',
+  description: '秒',
+}, {
+  identification: 'ss',
+  example: '00-59',
+  description: '秒，两位数',
+}, {
+  identification: 'S',
+  example: '0-9',
+  description: '毫秒',
+}, {
+  identification: 'SS',
+  example: '00-99',
+  description: '毫秒，两位数',
+}, {
+  identification: 'SSS',
+  example: '000-999',
+  description: '毫秒，三位数',
+}, {
+  identification: 'A',
+  example: 'AM/PM',
+  description: '上午/下午 大写',
+}, {
+  identification: 'a',
+  example: 'am/pm',
+  description: '上午/下午 小写',
+}, {
+  identification: 'Z',
+  example: '+08:00',
+  description: 'UTC 偏移量, ±HH:mm',
+}, {
+  identification: 'ZZ',
+  example: '+0800',
+  description: 'UTC 的偏移量, ±HHmm',
+}])
+</script>
+
+<template>
+  <el-table :data="data" stripe border>
+    <el-table-column prop="identification" label="identification" />
+    <el-table-column prop="example" label="example" />
+    <el-table-column prop="description" label="description" />
+  </el-table>
+</template>

@@ -80,12 +80,10 @@
 /* .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand) !important;
 } */
-@media (min-width: 960px) {
-  .VPNavBar.has-sidebar .content {
-    /* padding-right: 10px !important; */
-  }
-}
 
 .el-avatar {
   --el-avatar-bg-color: transparent !important;
+}
+.vp-doc .el-table table{
+  margin: 0px;
 }

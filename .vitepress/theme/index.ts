@@ -4,6 +4,7 @@ import { h } from 'vue'
 import XingLy from 'xing-ly'
 import Layout from './Layout.vue'
 
+import 'uno.css'
 import 'xing-ly/dist/style.css'
 
 import './rainbow.css'

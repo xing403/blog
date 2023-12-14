@@ -1,6 +1,11 @@
+import path from 'node:path'
+import fs from 'node:fs'
+import type { DefaultTheme } from 'vitepress'
+
 export const sidebar = {
   '/blogs/': { base: '/blogs/', items: sidebarBlogs() },
-  '/project/': { base: '/project/', items: sidebarProject() },
+  '/project/xing-ly/': { base: '/project/xing-ly/', items: sidebarProject() },
+  '/project/schedule/': { base: '/project/schedule', items: sidebarMenu('project/schedule') },
   '/pages/': { base: '/pages/', items: sidebarPage() }
 }
 
@@ -102,19 +107,40 @@ function sidebarBlogs() {
 
 function sidebarProject() {
   return [{
-    text: 'npm 仓库',
+    text: '介绍',
+    link: '/'
+  }, {
+    text: '组件',
     items: [
-      {
-        text: 'xing-ly', link: 'xing-ly/',
-        items: [
-          { text: 'canvas-image', link: 'xing-ly/components/canvas-image/' },
-          { text: 'qr-code', link: 'xing-ly/components/qr-code/' },
-        ]
-      },
-    ],
+      { text: 'canvas-image', link: 'components/canvas-image' },
+      { text: 'qr-code', link: 'components/qr-code' },
+    ]
   }]
 }
 
 function sidebarPage() {
   return []
+}
+function sidebarMenu(dir = '', root = '/') {
+  const sidebar: DefaultTheme.Sidebar = []
+  for (const item of fs.readdirSync(path.resolve(__dirname, `../${dir}`))) {
+    if (fs.statSync(path.resolve(__dirname, `../${dir}/${item}`)).isDirectory()) {
+      sidebar.push({
+        text: item,
+        items: sidebarMenu(`${dir}/${item}`, `${root}${item}/`)
+      })
+
+    } else if (!/^(description|introduction)/.test(item)) {// description introduction 排在前面
+      sidebar.push({
+        text: item.split('.')[0],
+        link: `${root}${item.split('.')[0]}`,
+      })
+    } else if (/^(description|introduction)/.test(item)) {
+      sidebar.unshift({
+        text: item.split('.')[0],
+        link: `${root}${item.split('.')[0]}`,
+      })
+    }
+  }
+  return sidebar
 }
