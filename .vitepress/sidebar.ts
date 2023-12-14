@@ -4,10 +4,10 @@ import yaml from 'js-yaml'
 import type { DefaultTheme } from 'vitepress'
 
 export const sidebar = {
-  '/blogs/': { base: '/blogs/', items: sidebarMenu('blogs') },
+  '/blogs/': { base: '/blogs', items: sidebarMenu('blogs') },
   '/project/xing-ly/': { base: '/project/xing-ly', items: sidebarMenu("project/xing-ly") },
   '/project/schedule/': { base: '/project/schedule', items: sidebarMenu('project/schedule') },
-  '/pages/': { base: '/pages/', items: sidebarMenu('pages') }
+  '/pages/': { base: '/pages', items: sidebarMenu('pages') }
 }
 
 function sidebarMenu(dir = '', root = '/') {
