@@ -43,6 +43,6 @@
   "dependencies": {
     "pnpm": "^8.9.2",
     "vue": "^3.3.7",
-    "xing-ly": "0.0.13-release"
+    "xing-ly": "0.0.14"
   }
 }

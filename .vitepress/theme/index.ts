@@ -3,6 +3,7 @@ import Theme from 'vitepress/theme'
 import { h } from 'vue'
 import XingLy from 'xing-ly'
 import Layout from './Layout.vue'
+import CustomComponents from '../components'
 
 import 'uno.css'
 import 'xing-ly/dist/style.css'
@@ -15,8 +16,9 @@ import pkg from "../../package.json"
 export default {
   ...Theme,
   Layout: () => h(Layout),
-  enhanceApp({ app, router, siteData }) {
+  enhanceApp({ app, _router, _siteData }) {
     app.use(XingLy)
+    CustomComponents.forEach(component => app.component(component.name, component))
   }
 }
 console.log(`%c author %c ${pkg.author} `,

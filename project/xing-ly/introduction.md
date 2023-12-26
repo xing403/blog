@@ -4,8 +4,9 @@ layout: doc
 ---
 # xing-ly
 <el-divider />
-<div>
-  <img src="https://img.shields.io/npm/v/xing-ly.svg">
+<div style="display: flex; flex-wrap: wrap;gap: 10px;">
+  <a href="https://www.npmjs.com/package/xing-ly" blank><img src="https://img.shields.io/npm/v/xing-ly.svg"></a>
+  <img src="https://img.shields.io/npm/dm/xing-ly.svg" />
 </div>
 
 > 在这里你可以使用到已经封装好的部分组件
