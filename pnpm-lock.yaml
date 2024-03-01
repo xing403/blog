@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  animate.ts:
+    specifier: ^0.0.4
+    version: 0.0.4
   pnpm:
     specifier: ^8.9.2
     version: 8.15.4
@@ -1673,6 +1676,10 @@ packages:
       '@algolia/requester-node-http': 4.22.1
       '@algolia/transporter': 4.22.1
     dev: true
+
+  /animate.ts@0.0.4:
+    resolution: {integrity: sha512-udvjK6enWGW95o2T/ATjXSVNyb3ah5GnrwV9w2XNQk7wqD5OdQ+AB0Lh4YEheQlOuPr1i//Xx+y2NUtvEmn6cQ==}
+    dev: false
 
   /ansi-escapes@4.3.2:
     resolution: {integrity: sha512-gKXj5ALrKWQLsYG9jlTRmR/xKluxHV+Z9QEwNIgCfM1/uwPMCuzVVnh5mwTd+OuBZcwSIMbqssNWRm1lE51QaQ==}

@@ -11,6 +11,9 @@ export function nav() {
     }, {
       text: 'schedule',
       link: '/project/schedule/introduction'
+    }, {
+      text: 'animate.ts',
+      link: '/project/animate.ts/introduction'
     }]
   }, {
     text: '玩一下',

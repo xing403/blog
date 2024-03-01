@@ -7,7 +7,7 @@ import CustomComponents from '../components'
 
 import 'uno.css'
 import 'xing-ly/dist/style.css'
-
+import 'element-plus/dist/index.css'
 import './rainbow.css'
 import './style.css'
 
