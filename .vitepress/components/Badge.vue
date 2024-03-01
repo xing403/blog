@@ -12,7 +12,7 @@ const props = defineProps<{
 }>()
 
 const effect = computed(() => props.effect || 'plain')
-const type = computed(() => props.type || '')
+const type = computed(() => props.type || 'primary')
 const round = computed(() => props.round || true)
 const size = computed(() => props.size || 'small')
 </script>

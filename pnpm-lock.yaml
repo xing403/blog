@@ -12,8 +12,8 @@ dependencies:
     specifier: ^3.3.7
     version: 3.4.21
   xing-ly:
-    specifier: 0.0.14
-    version: 0.0.14(element-plus@2.5.6)(qrcode@1.5.3)(vue@3.4.21)
+    specifier: ^0.0.15
+    version: 0.0.15(element-plus@2.5.6)(qrcode@1.5.3)(vue@3.4.21)
 
 devDependencies:
   js-yaml:
@@ -3990,8 +3990,8 @@ packages:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
     dev: true
 
-  /xing-ly@0.0.14(element-plus@2.5.6)(qrcode@1.5.3)(vue@3.4.21):
-    resolution: {integrity: sha512-2hD81eq8k0vtFhZHjtrmt8flRCBSqQDbR6gbHlm17cKYHh2seTmPYgCGLrHiMpXFDC+dTgqsmK8N4MlFJhPfOQ==}
+  /xing-ly@0.0.15(element-plus@2.5.6)(qrcode@1.5.3)(vue@3.4.21):
+    resolution: {integrity: sha512-6XkKRDdIKNimJgMDPpS6/B10alIymB3CdYyTFghbNNMOVgnx9J5vtNK1/klNGcrCa6fX/Ucv7FwsytROYLvbNA==}
     peerDependencies:
       element-plus: ^2.4.2
       qrcode: ^1.5.3
