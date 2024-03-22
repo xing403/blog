@@ -92,5 +92,10 @@ mesh.rotation.y += 0.01
   import AutomaticRotation from '/examples/AutomaticRotation.vue'
 </script>
 
-
+::: raw
 <AutomaticRotation />
+:::
+
+::: details 点击查看代码
+<<< @/examples/AutomaticRotation.vue
+:::

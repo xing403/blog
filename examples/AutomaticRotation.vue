@@ -1,16 +1,15 @@
 <script setup lang="ts">
 import * as THREE from 'three'
-import { nextTick, ref} from 'vue'
+import { nextTick, ref, watchEffect } from 'vue'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
+import { useElementSize } from '@vueuse/core';
 
-const WIDTH = 750
-const HEIGHT = 400
 const container = ref()
+const { width, height } = useElementSize(container)
 const scene = new THREE.Scene()
-const camera = new THREE.PerspectiveCamera(75, WIDTH / HEIGHT, 0.1, 1000)
+const camera = new THREE.PerspectiveCamera(75, 100 / 100, 0.1, 2000)
 camera.position.set(200, 200, 200)
-const renderer = new THREE.WebGLRenderer()
-renderer.setSize(WIDTH, HEIGHT)
+const renderer = ref<THREE.WebGLRenderer>(new THREE.WebGLRenderer())
 
 const material = new THREE.MeshBasicMaterial({
   color: 0x409eff
@@ -22,30 +21,26 @@ scene.add(mesh)
 scene.add(camera)
 
 function animate() {
-  requestAnimationFrame(animate)
   mesh.rotation.x += 0.01
   mesh.rotation.y += 0.01
-  renderer.render(scene, camera)
+  renderer.value.setSize(width.value, height.value)
+  renderer.value.render(scene, camera)
+  requestAnimationFrame(animate)
 }
-new OrbitControls(camera, renderer.domElement)
 
-window.addEventListener('resize', () => {
-  camera.aspect = WIDTH / HEIGHT
+watchEffect(() => {
+  camera.aspect = width.value / height.value
   camera.updateProjectionMatrix()
-  renderer.setSize(WIDTH, HEIGHT)
+  renderer.value.setSize(width.value, height.value)
 })
+
 nextTick(() => {
-  container.value.appendChild(renderer.domElement)
-  new OrbitControls(camera, renderer.domElement)
+  new OrbitControls(camera, renderer.value.domElement)
+  container.value.appendChild(renderer.value.domElement)
   animate()
 })
-
 </script>
 
 <template>
-  <div ref="container" class="container" :style="{
-    width: `${WIDTH}px`,
-    height: `${HEIGHT}px`,
-    margin: '0 auto'
-  }" />
+  <div ref="container" style="height: 400px;" />
 </template>
