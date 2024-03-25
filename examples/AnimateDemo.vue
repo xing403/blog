@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import animate, { easing } from "animate.ts"
+import animate from "animate.ts"
+import easing from "animate.ts/dist/easing.js"
 
 const easingFunction = ref({ ...easing })
 
@@ -42,8 +43,8 @@ function handleAnimate() {
       </el-form-item>
     </el-form>
     <div style="width: 400px;height: 310px;position: relative;border-radius: 5px;border: 1px #ccc solid">
-      <div ref="animateBoxRef" style="width: 10px;height: 10px;border-radius: 50%;position: absolute;background: #409eff;" />
+      <div ref="animateBoxRef"
+        style="width: 10px;height: 10px;border-radius: 50%;position: absolute;background: #409eff;" />
     </div>
   </div>
 </template>
-

@@ -5,6 +5,7 @@ import XingLy from 'xing-ly'
 import Layout from './Layout.vue'
 import CustomComponents from '../components'
 import ElementPlus from 'element-plus'
+
 import 'uno.css'
 import 'xing-ly/dist/style.css'
 import 'element-plus/dist/index.css'

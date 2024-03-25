@@ -14,5 +14,6 @@ title: 缓动函数
   const size = ref(100)
 </script>
 
-
-<AnimateDemo />
+<ClientOnly>
+  <AnimateDemo />
+</ClientOnly>

@@ -93,7 +93,9 @@ mesh.rotation.y += 0.01
 </script>
 
 ::: raw
-<AutomaticRotation />
+<ClientOnly>
+  <AutomaticRotation />
+</ClientOnly>
 :::
 
 ::: details 点击查看代码
