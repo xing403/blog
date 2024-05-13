@@ -84,6 +84,14 @@
 .el-avatar {
   --el-avatar-bg-color: transparent !important;
 }
-.vp-doc .el-table table{
+
+.vp-doc .el-table table {
   margin: 0px;
+}
+
+.VPFooter .container .message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
