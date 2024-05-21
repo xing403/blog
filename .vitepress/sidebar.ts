@@ -20,7 +20,7 @@ function sidebarMenu(dir = '', root = '/') {
       const content = fs.readFileSync(path.resolve(__dirname, `../${dir}/${item}`)).toString()
       const yamlObj = yaml.load(content.split('---')[1])
 
-      if (!/^(description|introduction)/.test(item)) {// description introduction 排在前面
+      if (!/^(description|introduction).md$/.test(item)) {// description introduction 排在前面
         sidebar.push({ text: yamlObj.title ?? item.split('.')[0], link: `${root}${item.split('.')[0]}` })
       } else {
         sidebar.unshift({ text: yamlObj.title ?? item.split('.')[0], link: `${root}${item.split('.')[0]}` })
