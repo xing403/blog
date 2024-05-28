@@ -15,7 +15,7 @@ function sidebarMenu(dir = '', root = '/') {
   const sidebar: DefaultTheme.Sidebar = []
   for (const item of fs.readdirSync(path.resolve(__dirname, `../${dir}`))) {
     if (fs.statSync(path.resolve(__dirname, `../${dir}/${item}`)).isDirectory()) {
-      sidebar.push({ text: item, items: sidebarMenu(`${dir}/${item}`, `${root}${item}/`) })
+      sidebar.push({ text: item, collapsed: true, items: sidebarMenu(`${dir}/${item}`, `${root}${item}/`) })
     } else {
       const content = fs.readFileSync(path.resolve(__dirname, `../${dir}/${item}`)).toString()
       const yamlObj = yaml.load(content.split('---')[1])
