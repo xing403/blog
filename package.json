@@ -45,7 +45,7 @@
     "@vueuse/core": "^10.9.0",
     "animate.ts": "^0.0.6",
     "element-plus": "^2.6.2",
-    "pnpm": "^8.9.2",
+    "pnpm": "^9.3.0",
     "three": "^0.165.0",
     "vue": "^3.3.7",
     "xing-ly": "^0.0.15"
