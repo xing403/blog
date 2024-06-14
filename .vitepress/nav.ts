@@ -18,17 +18,20 @@ export function nav() {
   }, {
     text: '玩一下',
     items: [{
-      text: 'games',
-      link: 'http://games.ilstudy.vip'
-    }, {
       text: 'schedule',
       link: 'http://schedule.ilstudy.vip'
     }, {
-      text: 'avatar',
-      link: 'https://avatar.ilstudy.vip'
+      text: 'vue3 md editor',
+      link: 'http://editor.ilstudy.vip'
     }, {
       text: 'todo list',
       link: 'http://todo.ilstudy.vip'
+    }, {
+      text: 'games',
+      link: 'http://games.ilstudy.vip'
+    }, {
+      text: 'avatar',
+      link: 'https://avatar.ilstudy.vip'
     }, {
       text: 'board',
       link: 'http://board.ilstudy.vip'
