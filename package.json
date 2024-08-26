@@ -42,7 +42,7 @@
     }
   },
   "dependencies": {
-    "@vueuse/core": "^10.9.0",
+    "@vueuse/core": "^11.0.3",
     "animate.ts": "^0.0.6",
     "element-plus": "^2.6.2",
     "pnpm": "^9.3.0",
