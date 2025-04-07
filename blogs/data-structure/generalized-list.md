@@ -1,12 +1,8 @@
 ---
 title: 广义表
 layout: doc
+tags: [data structure]
 ---
-# 广义表
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>data structure</el-tag>
-</div>
 
 ## 广义表定义
 广义表又称列表(List)，是 n≥0 个元素 (a1,a2,a3,...,an) 的优先序列，其中ai是原子数据类型或者是一个广义表，记

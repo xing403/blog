@@ -1,6 +1,6 @@
 ---
 title: 首页
-layout: doc
+layout: page
 ---
 
 <script setup>

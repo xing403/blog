@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: MQTT
+tags: [schedule,mqtt, tool]
 ---
 # MQTT
 automatically publishes' mqtt 'messages, [what is mqtt?](https://ilstudy.vip/blogs/mqtt/vue3-mqtt.html#什么是mqttt)

@@ -1,13 +1,8 @@
 ---
 title: SpringBoot 上传与下载
 layout: doc
+tags: [ java, springboot, upload, download]
 ---
-# SpringBoot 上传与下载
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>java</el-tag>
-  <el-tag>springboot</el-tag>
-</div>
 
 ## 使用上传和下载依赖
 ~~~xml

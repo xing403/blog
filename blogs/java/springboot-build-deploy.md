@@ -1,24 +1,25 @@
 ---
 title: SpringBoot 构建 & 部署
 layout: doc
+tags: [springboot, deployment]
 ---
 # SpringBoot 构建 & 部署
 ## SpringBoot 构建 war
 ### pxm.xml 内容
-~~~xml
+```xml
 <!--  修改打包方式: war -->
 <packaging>war</packaging>
 <!-- 控制打包的版本-->
 <version>0.0.2-SNAPSHOT</version>
-~~~
+```
 ### 配置依赖使用外部Tomcat服务器
-~~~xml
+```xml
 <dependency>
   <groupId>org.springframework.boot</groupId>
   <artifactId>spring-boot-starter-tomcat</artifactId>
   <scope>provided</scope>
 </dependency>
-~~~
+```
 ![](https://raw.githubusercontent.com/xing403/images-repo/main/assets/website/20220418150147.png)
 
 ## SpringBoot 构建 jar

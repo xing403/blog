@@ -1,13 +1,8 @@
 ---
 title: powershell命令简写
 layout: doc
+tags: [tools, powershell]
 ---
-# powershell命令简写
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>powershell</el-tag>
-  <el-tag>tools</el-tag>
-</div>
 
 ## Windows安装powershell
 [中文官网地址下载](https://learn.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_profiles?view=powershell-7.3)

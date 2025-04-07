@@ -1,14 +1,8 @@
 ---
 title: 自定义组件
 layout: doc
+tags: [flutter, component, android]
 ---
-# 自定义组件
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>flutter</el-tag>
-  <el-tag>component</el-tag>
-  <el-tag>android</el-tag>
-</div>
 
 ## 前言
 项目依赖使用 腾讯 `tdesign-flutter` 组件库

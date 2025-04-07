@@ -1,13 +1,8 @@
 ---
 title: flutter 起步
 layout: doc
+tags: [flutter]
 ---
-# flutter 起步
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>flutter</el-tag>
-  <el-tag>start</el-tag>
-</div>
 
 ## 环境安装
 

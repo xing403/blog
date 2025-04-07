@@ -2,6 +2,7 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: doc
 title: 缓动函数
+tags: [animate.ts, ts, tool]
 ---
 
 # 缓动函数使用

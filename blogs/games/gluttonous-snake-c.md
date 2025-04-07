@@ -1,16 +1,8 @@
 ---
 title: 贪吃蛇C语言实现
 layout: doc
+tags: [ c, game, gluttonous snake]
 ---
-
-# 贪吃蛇C语言实现
-
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>C</el-tag>
-  <el-tag>game</el-tag>
-  <el-tag>gluttonous snake</el-tag>
-</div>
 
 ```cpp
 #include<stdio.h>

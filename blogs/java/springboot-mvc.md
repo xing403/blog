@@ -1,17 +1,8 @@
 ---
 title: SpringBoot MVC
 layout: doc
+tags: [java,springboot, Servlet mvc]
 ---
-# SpringBoot MVC
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>java</el-tag>
-  <el-tag>springboot</el-tag>
-  <el-tag>Servlet</el-tag>
-  <el-tag>Filter</el-tag>
-  <el-tag>Interceptor</el-tag>
-  <el-tag>Listener</el-tag>
-</div>
 
 * Servlet : 控制器，和controller 相似，用于页面控制等
 * Filter : 过滤器，

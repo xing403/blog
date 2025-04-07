@@ -1,6 +1,7 @@
 ---
 title: cron 规则
 layout: doc
+tags: ['cron']
 ---
 <script setup>
 const table1 = [{

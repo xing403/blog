@@ -1,13 +1,8 @@
 ---
 title: '@Data 注解'
 layout: doc
+tags: ['java', 'springboot']
 ---
-# @Data 注解
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>java</el-tag>
-  <el-tag>springboot</el-tag>
-</div>
 
 ## 使用的依赖
 ```xml

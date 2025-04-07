@@ -1,14 +1,8 @@
 ---
 title: defineProps & defineEmits
 layout: doc
+tags: [vue, vite, component]
 ---
-# defineProps & defineEmits
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>vue</el-tag>
-  <el-tag>component</el-tag>
-  <el-tag>vite</el-tag>
-</div>
 
 ## 父子组件间传递参数
 在子组件中定义参数变量 `props`，在父组件中通过 `v-bind` 或者 `:` 绑定参数值

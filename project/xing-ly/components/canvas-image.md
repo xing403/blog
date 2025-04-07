@@ -1,6 +1,7 @@
 ---
 title: xl-canvas-image
 layout: doc
+tags: [vue, component]
 ---
 # xl-canvas-image
 <script setup>

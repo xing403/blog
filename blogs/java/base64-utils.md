@@ -1,14 +1,8 @@
 ---
 title: Base64 utils文件
 layout: doc
+tags: [java, SpringBoot, utils]
 ---
-# Base64 utils文件
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>java</el-tag>
-  <el-tag>SpringBoot</el-tag>
-  <el-tag>utils</el-tag>
-</div>
 
 ### 在项目启动目录创建 utils -> Base64.java
 ```java

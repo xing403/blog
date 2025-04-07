@@ -1,13 +1,8 @@
 ---
 title: HTML 使用MQTT
 layout: doc
+tags: [mqtt, html]
 ---
-# HTML 使用MQTT
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>mqtt</el-tag>
-</div>
-
 
 ## 什么是Mqtt
  [百度百科介绍](https://baike.baidu.com/item/MQTT/3618851)

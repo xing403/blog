@@ -1,13 +1,8 @@
 ---
 title: Springboot 自定义登录
 layout: doc
+tags: [java, springboot]
 ---
-# Springboot 自定义登录
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>java</el-tag>
-  <el-tag>springboot</el-tag>
-</div>
 
 ## LoginController
 ```java

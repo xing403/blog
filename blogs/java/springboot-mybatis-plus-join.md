@@ -1,6 +1,7 @@
 ---
 title: mybatis-plus 联表查询
 layout: doc
+tags: [ mybatis-plus, springboot, mysql]
 ---
 # mybatis-plus 联表查询
 <el-divider />

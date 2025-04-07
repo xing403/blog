@@ -1,13 +1,8 @@
 ---
 title: dart 语法
 layout: doc
+tags: [dart, flutter]
 ---
-# dart 语法
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>dart</el-tag>
-  <el-tag>flutter</el-tag>
-</div>
 
 `dart` 是开发 `fulter` 的基础语言, 语法和 `java` 类似，但是更加简洁。
 ## 创建类

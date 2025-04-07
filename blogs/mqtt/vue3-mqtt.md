@@ -1,14 +1,8 @@
 ---
 title: vue3-ts-mqtt 封装
 layout: doc
+tags: ['vue3', 'mqtt', 'utils']
 ---
-# vue3-ts-mqtt 封装
-
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>vue3</el-tag>
-  <el-tag>mqtt</el-tag>
-</div>
 
 ## 什么是MQTT
 **MQTT** (消息队列遥测传输)是ISO 标准(ISO/IEC PRF 20922)下基于发布/订阅范式的消息协议。它工作在 TCP/IP协议族上，是为硬件性能低下的远程设备以及网络状况糟糕的情况下而设计的发布/订阅型消息协议，为此，它需要一个消息中间件。

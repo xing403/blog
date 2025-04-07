@@ -2,9 +2,8 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: doc
 title: introduction
+tags: [animate.ts, ts, tool]
 ---
-
-# animate.ts
 
 animate.ts is an animation library for Typescript.
 

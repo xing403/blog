@@ -1,14 +1,8 @@
 ---
 title: RabbitMQ 消息服务
 layout: doc
+tags: [ java, SpringBoot, RabbitMQ]
 ---
-# RabbitMQ 消息服务
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>java</el-tag>
-  <el-tag>SpringBoot</el-tag>
-  <el-tag>RabbitMQ</el-tag>
-</div>
 
 ## 安装 RabbitMQ 服务
 由于 RabbitMQ 基于 erlang 语言，因此在安装的时需要先安装erlang

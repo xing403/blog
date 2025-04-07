@@ -1,16 +1,8 @@
 ---
 title: GitHub pages
 layout: doc
+tags: [github, pages, tools, automation]
 ---
-# GitHub pages
-
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>github</el-tag>
-  <el-tag>pages</el-tag>
-  <el-tag>tools</el-tag>
-  <el-tag>automation</el-tag>
-</div>
 
 ## 关于 GitHub Pages
 GitHub Pages 是一项静态站点托管服务，它直接从 GitHub 上的仓库获取 HTML、CSS 和 JavaScript 文件，（可选）通过构建过程运行文件，然后发布网站。

@@ -1,13 +1,8 @@
 ---
 title: 在安卓设备上运行demo
 layout: doc
+tags: [flutter, android]
 ---
-# 在安卓设备上运行demo
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>flutter</el-tag>
-  <el-tag>android</el-tag>
-</div>
 
 ## 根据 flutter 官方文档 安装环境
 [https://docs.flutter.cn/get-started/install](https://docs.flutter.cn/get-started/install)

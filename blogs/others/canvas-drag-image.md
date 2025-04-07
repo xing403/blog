@@ -1,13 +1,8 @@
 ---
 title: 实现canvas中图片的平移与缩放
 layout: doc
+tags: [canvas,vue2]
 ---
-# 实现canvas中图片的平移与缩放
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>vue2</el-tag>
-  <el-tag>canvas</el-tag>
-</div>
 
 ## 定义一个canvas
 ```html

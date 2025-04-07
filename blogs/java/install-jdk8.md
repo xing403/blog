@@ -1,13 +1,8 @@
 ---
 title: 安装JDK8
 layout: doc
+tags: [java, jdk8]
 ---
-# 安装JDK8 & Idea
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>java</el-tag>
-  <el-tag>安装JDK8</el-tag>
-</div>
 
 ## 安装JDK8
 ### 先下载JDK8环境

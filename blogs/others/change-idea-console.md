@@ -1,13 +1,8 @@
 ---
 title: 修改控制台 打印Spring
 layout: doc
+tags: [java,springboot]
 ---
-# 修改控制台 打印Spring
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>java</el-tag>
-  <el-tag>springboot</el-tag>
-</div>
 
 ## 初始化字样
 

@@ -1,15 +1,8 @@
 ---
 title: SpringBoot redis
 layout: doc
+tags: [redis, sptringboot, java]
 ---
-# SpringBoot redis
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>java</el-tag>
-  <el-tag>springboot</el-tag>
-  <el-tag>redis</el-tag>
-</div>
-
 
 ## 下载 redis
 > 小皮面板（Windows系统）

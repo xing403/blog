@@ -1,14 +1,8 @@
 ---
 title: SpringBoot 配置 pom.xml
 layout: doc
+tags: [java, springboot, pom.xml]
 ---
-# SpringBoot 配置 pom.xml
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>java</el-tag>
-  <el-tag>springboot</el-tag>
-  <el-tag>pom.xml</el-tag>
-</div>
 
 ## pom文件各种标签
 ```xml

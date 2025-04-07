@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: date-time
+tags: [schedule, tool]
 ---
 
 # date-time

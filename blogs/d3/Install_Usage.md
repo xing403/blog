@@ -1,11 +1,8 @@
 ---
 title: three.js 安装与使用
 layout: doc
+tags: [three.js]
 ---
-
-# three.js 安装与使用
-
-<el-divider />
 
 three.js 是一个基于 `WebGL` 的 `JavaScript` 库，用于创建 `3D` 图形。
 

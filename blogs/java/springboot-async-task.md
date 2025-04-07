@@ -1,15 +1,8 @@
 ---
-title: Redis utils文件
+title: SpringBoot 异步任务
 layout: doc
+tags: [java, SpringBoot,  task]
 ---
-# SpringBoot 异步任务
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>java</el-tag>
-  <el-tag>SpringBoot</el-tag>
-  <el-tag>async</el-tag>
-  <el-tag>task</el-tag>
-</div>
 
 ## 开启异步任务
 启动类开启异步任务

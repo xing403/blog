@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: notification
+tags: [schedule, notification, tool]
 ---
 
 # notification

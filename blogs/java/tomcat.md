@@ -1,13 +1,8 @@
 ---
 title: tomcat
 layout: doc
+tags: [ java, tomcat]
 ---
-# tomcat
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>java</el-tag>
-  <el-tag>tomcat</el-tag>
-</div>
 
 ## 下载tomcat
 > 下载地址: [https://tomcat.apache.org/](https://tomcat.apache.org/)

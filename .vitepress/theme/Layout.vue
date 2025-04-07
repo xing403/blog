@@ -6,7 +6,7 @@ import DefaultTheme from 'vitepress/theme';
 import { nextTick, provide } from 'vue';
 
 const { Layout } = DefaultTheme
-const { isDark } = useData()
+const { isDark, frontmatter } = useData()
 
 const enableTransitions = () =>
   'startViewTransition' in document &&
@@ -43,7 +43,15 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
 </script>
 
 <template>
-  <Layout />
+  <Layout>
+    <template #doc-before>
+      <h1 class="lh-40px text-32px relative font-600 outline-none letter-spacing--0.02em">{{ frontmatter.title }}</h1>
+      <el-space v-if="frontmatter.tags && frontmatter.tags.length" class="my-2">
+        <el-tag :effect="isDark ? 'dark' : 'light'" v-for="tag in frontmatter.tags" :key="tag">{{ tag }}</el-tag>
+      </el-space>
+    </template>
+    <Content />
+  </Layout>
 </template>
 
 <style>

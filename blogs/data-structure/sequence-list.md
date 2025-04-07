@@ -1,12 +1,8 @@
 ---
 title: 顺序表
 layout: doc
+tags: [data structure]
 ---
-# 顺序表
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>data structure</el-tag>
-</div>
 
 ## 顺序表定义
 线性表的顺序存储又称顺序表。它是用一组地址连续的存储单元依次存储线性表的数据元素，从而使得逻辑上相邻的两个元素在物理位置上也相邻。

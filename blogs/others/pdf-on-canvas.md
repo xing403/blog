@@ -1,16 +1,8 @@
 ---
 title: 实现pdf在canvas中展示
 layout: doc
+tags: [pdf, canvas, vue]
 ---
-
-# 实现pdf在canvas中展示
-
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>vue3</el-tag>
-  <el-tag>pdf</el-tag>
-  <el-tag>canvas</el-tag>
-</div>
 
 ## 安装 pdfjs-dist
 ```shell

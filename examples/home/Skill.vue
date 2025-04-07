@@ -67,14 +67,13 @@ const data = {
 
 </script>
 <template>
-  <div class="skill-container">
+  <div class="skill-container flex flex-col items-center">
     <div class="skill-group" v-for="group, key in data" :key="key">
-      <div>{{ key }}</div>
-      <div class="skill-list gap-4 wrap flex flex-row my-1">
+      <el-space :size="20">
         <a v-for="item in group" :key="item.name" :href="item.link" target="_blank">
           <el-image :src="item.icon" :alt="item.name" style="width: 50px;height: 50px;" />
         </a>
-      </div>
+      </el-space>
     </div>
   </div>
 </template>

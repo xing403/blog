@@ -1,13 +1,8 @@
 ---
 title: 创建Vue项目
 layout: doc
+tags: [vue2, nodejs]
 ---
-# 创建Vue项目
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>vue</el-tag>
-  <el-tag>nodejs</el-tag>
-</div>
 
 ## Vue运行环境使用 Node.js
 

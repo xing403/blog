@@ -1,13 +1,8 @@
 ---
 title: uniApp 使用本地缓存
 layout: doc
+tags: [uniapp]
 ---
-# Base64 utils文件
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>uniapp</el-tag>
-  <el-tag>storage</el-tag>
-</div>
 
 ## 在util 创建一个storage 目录 并在该目录下创建 storage.js
 ```javascript

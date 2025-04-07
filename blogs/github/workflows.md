@@ -1,15 +1,8 @@
 ---
 title: GitHub Actions
 layout: doc
+tags: [github, tools, automation]
 ---
-# GitHub Actions
-
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>github</el-tag>
-  <el-tag>tools</el-tag>
-  <el-tag>automation</el-tag>
-</div>
 
 ## 概述
 GitHub Actions 是一种持续集成和持续交付 (CI/CD) 平台，可用于自动执行生成、测试和部署管道。 您可以创建工作流程来构建和测试存储库的每个拉取请求，或将合并的拉取请求部署到生产环境。

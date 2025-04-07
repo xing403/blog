@@ -1,14 +1,8 @@
 ---
 title: 01 背包问题
 layout: doc
+tags: [structure, 01 package]
 ---
-# 01 背包问题
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>structure</el-tag>
-  <el-tag>01 package</el-tag>
-</div>
-
 
 ## 问题描述
 

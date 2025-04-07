@@ -1,12 +1,8 @@
 ---
 title: 单链表
 layout: doc
+tags: [data structure]
 ---
-# 单链表
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>data structure</el-tag>
-</div>
 
 ## 定义
 线性表的链式存储又称单链表，它是只通过一组任意的存储单元来存储线性表的数据元素。为建立数据元素之间的线性关系，每个链表节点除了存放元素自身的信息外，还需要存放指向其后继的指针。

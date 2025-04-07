@@ -1,14 +1,9 @@
 ---
-title: github &amp; github 图床
+title: github & github 图床
 layout: doc
+tags: [github, gitee, tools]
 ---
-# github &amp; github 图床
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>github</el-tag>
-  <el-tag>gitee</el-tag>
-  <el-tag>图床工具</el-tag>
-</div>
+
 
 ## gitee图床
 

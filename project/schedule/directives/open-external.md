@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: "openExternal"
+tags: [schedule, external, tool]
 ---
 # open-external
 

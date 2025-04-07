@@ -2,8 +2,6 @@
 title: 介绍
 layout: doc
 ---
-# xing-ly
-<el-divider />
 <div style="display: flex; flex-wrap: wrap;gap: 10px;">
   <a href="https://www.npmjs.com/package/xing-ly" blank><img src="https://img.shields.io/npm/v/xing-ly.svg"></a>
   <img src="https://img.shields.io/npm/dm/xing-ly.svg" />

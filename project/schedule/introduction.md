@@ -1,7 +1,6 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: doc
-title: introduction
+title: 
 ---
 <div align="center">
   <img src="/images/schedule_logo.png" align="center" width="200" />

@@ -1,6 +1,7 @@
 ---
 title: xl-infinite-load
 layout: doc
+tags: [vue, component]
 ---
 # xl-infinite-load <Badge effect="plain" text="0.0.14" />
 <script setup>

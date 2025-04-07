@@ -1,13 +1,8 @@
 ---
 title: PC端和移动端交互事件
 layout: doc
+tags: [js, event]
 ---
-# PC端和移动端交互事件
-
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>javascript</el-tag>
-</div>
 
 ## 鼠标事件
 ### 鼠标左键单击

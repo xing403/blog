@@ -1,14 +1,8 @@
 ---
 title: spring boot 项目初始化
 layout: doc
+tags: [SpringBoot, java]
 ---
-# spring boot 项目初始化
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>Spring</el-tag>
-  <el-tag>Initializr</el-tag>
-  <el-tag>Java</el-tag>
-</div>
 
 在 `Idea 社区版` 创建一个新的 `Spring Boot` 项目时，`Idea` 会让你更新到开发版
 

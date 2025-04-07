@@ -1,13 +1,8 @@
 ---
 title: 数组与字典的相互转换
 layout: doc
+tags: [array, dictionary, convert]
 ---
-# 数组与字典的相互转换
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>array2dictionary</el-tag>
-  <el-tag>tools</el-tag>
-</div>
 
 ## 数组或字典格式
 ```ts

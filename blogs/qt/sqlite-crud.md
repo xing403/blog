@@ -1,15 +1,8 @@
 ---
 title: QT SQLite 实现增删改查
 layout: doc
+tags: [QT, SQLite, IOT]
 ---
-# QT SQLite 实现增删改查
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>QT</el-tag>
-  <el-tag>SQLite</el-tag>
-  <el-tag>嵌入式</el-tag>
-</div>
-
 
 ## 在工程文件下使用sqlite
 

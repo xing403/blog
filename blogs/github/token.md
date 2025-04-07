@@ -1,15 +1,8 @@
 ---
 title: GitHub Token
 layout: doc
+tags: [github,tools,token]
 ---
-# GitHub Token
-
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>github</el-tag>
-  <el-tag>tools</el-tag>
-  <el-tag>token</el-tag>
-</div>
 
 ## 创建 token
 在右上角头像部分点击找到 `Setting` 点击

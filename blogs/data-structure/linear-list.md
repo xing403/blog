@@ -1,12 +1,8 @@
 ---
 title: 线性表
 layout: doc
+tags: [data structure]
 ---
-# 线性表
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>data structure</el-tag>
-</div>
 
 ## 线性表的定义
 线性表是具有n个数据元素的有限序列，其中n为线性表的长度，当n=0时，线性表是空表，若用L表示线性表：

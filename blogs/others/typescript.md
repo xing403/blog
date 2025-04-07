@@ -1,13 +1,8 @@
 ---
 title: TypeScript
 layout: doc
+tags: [TypeScript]
 ---
-# TypeScript
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>ts</el-tag>
-  <el-tag>TypeScript</el-tag>
-</div>
 
 ## TypeScript 与JavaScript的区别
 

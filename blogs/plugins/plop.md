@@ -1,14 +1,8 @@
 ---
 title: plop plugin
 layout: doc
+tags: [plop, tool, plugin]
 ---
-# plop plugin
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>plugin</el-tag>
-  <el-tag>generator</el-tag>
-  <el-tag>tool</el-tag>
-</div>
 
 ## 介绍
 `plop` 是一个命令行工具，用于生成重复代码。在项目的开发过程中，我们经常需要重复创建一些文件，比如创建一个组件，创建一个页面，创建一个接口文件等等。每次创建一个文件，我们都需要手动创建文件，然后填写文件名，文件内容等信息，以及在文件中可能需要 `import` 或者 `require` 引入其他文件。

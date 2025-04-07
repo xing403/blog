@@ -1,15 +1,8 @@
 ---
 title: SpringBoot 配置maven
 layout: doc
+tags: [ java, SpringBoot, maven]
 ---
-# SpringBoot 配置mavenSpringBoot 配置maven
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>java</el-tag>
-  <el-tag>SpringBoot</el-tag>
-  <el-tag>maven</el-tag>
-</div>
-
 
 ## 什么是maven
  [maven 介绍](https://baike.baidu.com/item/Maven) 

@@ -1,14 +1,8 @@
 ---
-title: Spring Boot @Value
+title: Spring Boot @Value 为 null
 layout: doc
+tags: [spring boot, '@Value', issuse]
 ---
-# Spring Boot @Value 为 null
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>issuse</el-tag>
-  <el-tag>spring boot</el-tag>
-  <el-tag>@Value</el-tag>
-</div>
 
 > 在 application.properties 或者 application.yml 中配置一些默认值时，通过@Value 注解可以获取到这些默认值 但结果为 `null`
 

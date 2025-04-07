@@ -1,18 +1,10 @@
 ---
 title: 浏览器 IndexDB 的使用
 layout: doc
+tags: [browser, indexDB]
 ---
-# indexDB 的使用
-
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>indexDB</el-tag>
-  <el-tag>chrome</el-tag>
-</div>
-
 
 ```ts
-
 const { log } = console
 
 class IndexedDB {

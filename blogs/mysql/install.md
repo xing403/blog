@@ -1,6 +1,7 @@
 ---
 title: mysql 安装
 layout: doc
+tags: [mysql]
 ---
 # mysql 安装
 <el-divider />

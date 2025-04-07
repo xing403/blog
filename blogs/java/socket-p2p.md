@@ -1,14 +1,8 @@
 ---
 title: Socket 点对点通信
 layout: doc
+tags: [java, Socket, p2p]
 ---
-# Socket 点对点通信
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>java</el-tag>
-  <el-tag>Socket</el-tag>
-  <el-tag>p2p</el-tag>
-</div>
 
 ## Socket 
 Socket 套接字,就是对网络中不同主机上的应用进程之间进行双向通信的端点的抽象。一个套接字就是网络上进程通信的一端，提供了应用层进程利用网络协议交换数据的机制。从所处的地位来讲，套接字上联应用进程，下联网络协议栈，是应用程序通过网络协议进行通信的接口，是应用程序与网络协议栈进行交互的接口 [百度百科](https://baike.baidu.com/item/%E5%A5%97%E6%8E%A5%E5%AD%97/9637606) 

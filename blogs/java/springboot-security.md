@@ -1,14 +1,8 @@
 ---
 title: SpringBoot 用户安全访问
 layout: doc
+tags: [java, springboot, security]
 ---
-# SpringBoot 用户安全访问
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>java</el-tag>
-  <el-tag>springboot</el-tag>
-  <el-tag>security</el-tag>
-</div>
 
 ## 用户安全访问
 > 区分用户权限，不同的用户赋予不同的访问管理权限，使管理更高效

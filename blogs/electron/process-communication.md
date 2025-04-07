@@ -1,14 +1,8 @@
 ---
 title: 主进程与渲染进程通信
 layout: doc
+tags: [ electron, vue, vite]
 ---
-# 主进程与渲染进程通信
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>electron</el-tag>
-  <el-tag>vue</el-tag>
-  <el-tag>vite</el-tag>
-</div>
 
 ## ipcMain
 > 从主进程到渲染进程的异步通信。主进程：程序执行的入口。

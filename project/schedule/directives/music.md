@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: music
+tags: [schedule,file, tool]
 ---
 # music directive
 Play local music

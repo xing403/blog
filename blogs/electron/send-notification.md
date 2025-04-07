@@ -1,15 +1,8 @@
 ---
 title: Notification 发送通知
 layout: doc
+tags: [electron, vue, vite, notification]
 ---
-# Notification 发送通知
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>electron</el-tag>
-  <el-tag>vue</el-tag>
-  <el-tag>vite</el-tag>
-  <el-tag>notification</el-tag>
-</div>
 
 * 前提请先了解主进程与渲染进程通信
 

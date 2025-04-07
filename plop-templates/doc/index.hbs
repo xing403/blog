@@ -1,14 +1,5 @@
 ---
 title: {{ title }}
 layout: doc
+tags: [{{ keywords }}]
 ---
-# {{ title }}
-<el-divider />
-{{#if hasKeywords}}
-<div style='display: flex;gap: 10px;'>
-  {{#each keywords}}
-  <el-tag>{{this}}</el-tag>
-  {{/each}}
-</div>
-{{/if}}
-

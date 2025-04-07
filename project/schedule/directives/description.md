@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: description
+tags: [schedule, tool]
 ---
 
 # description
