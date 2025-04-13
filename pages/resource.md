@@ -66,20 +66,20 @@ const links = [{
   desc:'统一格式 icons 图标库 上千种库图标共选择',
 }]
 </script>
-<div style="padding:10px;margin:0 30px">
-  <el-row :gutter="10">
-    <el-col :xl="6" :lg="8" :md="12" :sm="12" :xs="24" v-for="link, index in links" :key="index">
-      <el-card style="margin-bottom:10px" shadow="hover">
-        <template #header>
-          <el-link :href="link.link" target="_blank" link v-text="link.title" style="font-size: 20px;font-weight:600;"/>
-        </template>
-        <div style="display: flex;justify-content: space-between;align-items: center;">
-          <div style="margin-right:20px;text-overflow:ellipsis" v-text="link.desc" />
-          <el-avatar :size="75" :src="link.icon" shape="square">
-            <img src="/images/avatar.jpg"/>
-          </el-avatar>
-        </div>
-      </el-card>
-    </el-col>
-  </el-row>
+
+<div class="pt-2">
+  <el-space wrap class="w-full" fill :fill-ratio="23">
+    <el-card v-for="link in links" :key="link"  shadow="hover">
+      <template #header>
+        <el-link :href="link.link" target="_blank" link v-text="link.title" class="text-20px font-600"/>
+      </template>
+      <div class="flex justify-between items-center">
+        <el-text line-clamp="2">{{ link.desc }}</el-text>
+        <el-avatar :size="75" :src="link.icon" shape="square">
+          <img src="/images/avatar.jpg"/>
+        </el-avatar>
+      </div>
+    </el-card>
+  </el-space>
+
 </div>

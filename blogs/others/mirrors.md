@@ -3,7 +3,6 @@ title: 常用的一些镜像
 layout: doc
 tags: [npm config]
 ---
-# 会用到一些镜像链接
 
 ## 阿里 `npm` 镜像
 

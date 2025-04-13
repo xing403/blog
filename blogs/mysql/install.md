@@ -1,39 +1,26 @@
 ---
 title: mysql 安装
 layout: doc
-tags: [mysql]
+tags: [mysql, database]
 ---
-# mysql 安装
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>mysql</el-tag>
-  <el-tag>database</el-tag>
-</div>
 
+## 命令安装
 
-> 命令：`mysqld -install
-~~~shell
+```shell
+# 安装 mysql
 mysqld -install
-~~~
-![](https://raw.githubusercontent.com/xing403/images-repo/main/assets/website/Snipaste_2022-03-12_17-03-28.png)
 
-> 初始化 mysql
-
-~~~shell
+# 初始化 mysql
 mysqld --initialize --console
-~~~
 
-![](https://raw.githubusercontent.com/xing403/images-repo/main/assets/website/20220313105827.png)
-
-> 启动mysql 服务 `net start mysql`
-~~~shell
+# 启动 mysql 服务
 net start mysql
-~~~
-![](https://raw.githubusercontent.com/xing403/images-repo/main/assets/website/20220313110122.png)
 
-> 停止mysql 服务`net stop mysql`
-
-~~~shell
+# 停止 mysql 服务
 net stop mysql
-~~~
+```
 
+## 下载 phpStudy 
+[https://www.xp.cn/php-study](https://www.xp.cn/php-study) 下载 phpStudy
+
+自带有 <el-tag>mysql</el-tag> <el-tag>php</el-tag>  <el-tag>apache</el-tag> <el-tag>phpMyAdmin</el-tag> <el-tag>redis</el-tag> 多种服务， 可一键启动

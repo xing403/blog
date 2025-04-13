@@ -65,41 +65,34 @@ const desc_symbol = [{
   value: '指和calendar联系后计算过的值',
 }]
 </script>
-<style>
-  .vp-doc table{
-    margin: 0 !important;
-  }
-</style>
-# cron 规则
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>cron</el-tag>
-  <el-tag>tools</el-tag>
-</div>
 
 ## cron 表达式
 Cron表达式是以5或6个空格隔开, 将内容分为6或7个域, 每一个域代表一个日期时间的格式
 
 ### Cron的格式
 
-<el-space fill w-full>
+::: raw
+<el-space fill w-full my-1>
   <div>从左到右 (用空格隔开) : 秒 分 小时 月份中的日期 月份 星期中的日期 [年份]</div>
   <el-alert show-icon title="年份为可选" type="info" :closable="false" />
 </el-space>
 
-<el-table :data="table1" stripe border>
+<el-table :data="table1" stripe border w-full>
   <el-table-column prop="name" label="名称" />
   <el-table-column prop="value" label="允许的数值" />
   <el-table-column prop="symbol" label="允许的符号" />
 </el-table>
+:::
 
 ### 符号含义
 
+::: raw
 <el-descriptions border :column="1">
   <el-descriptions-item v-for="item, index in desc_symbol" :key="index" :label="item.label">
     {{ item.value }}
   </el-descriptions-item>
 </el-descriptions>
+:::
 
 ## cron 举例
 

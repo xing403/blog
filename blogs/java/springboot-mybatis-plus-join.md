@@ -3,14 +3,6 @@ title: mybatis-plus 联表查询
 layout: doc
 tags: [ mybatis-plus, springboot, mysql]
 ---
-# mybatis-plus 联表查询
-<el-divider />
-<div style='display: flex;gap: 10px;'>
-  <el-tag>java</el-tag>
-  <el-tag>SpringBoot</el-tag>
-  <el-tag>mybatis-plus</el-tag>
-  <el-tag>mysql</el-tag>
-</div>
 
 # 前言
 作为mybatis的增强工具，mybatis-plus的出现极大的简化了开发中的数据库操作，但是长久以来，它的联表查询能力一直被大家所诟病。一旦遇到left join或right join的左右连接，手写上一大段的sql语句。

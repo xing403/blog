@@ -12,9 +12,6 @@ hero:
     - theme: brand
       text: 简介
       link: /home/
-    - theme: alt
-      text: GitHub
-      link: https://github.com/xing403
 features:
   - title: Vue Board
     icon: {

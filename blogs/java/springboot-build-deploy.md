@@ -3,7 +3,7 @@ title: SpringBoot 构建 & 部署
 layout: doc
 tags: [springboot, deployment]
 ---
-# SpringBoot 构建 & 部署
+
 ## SpringBoot 构建 war
 ### pxm.xml 内容
 ```xml

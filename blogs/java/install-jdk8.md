@@ -4,7 +4,6 @@ layout: doc
 tags: [java, jdk8]
 ---
 
-## 安装JDK8
 ### 先下载JDK8环境
 [baidu cloud JDK和IDEA资源](https://pan.baidu.com/s/1NusabhTdBlWtZrT8KWnRUQ?p=Java)
 
