@@ -19,7 +19,6 @@ export default {
   Layout: () => h(Layout),
   enhanceApp({ app, _router, _siteData }) {
     app.use(XingLy)
-    app.use(ElementPlus)
     CustomComponents.forEach(component => app.component(component.name, component))
   }
 }
@@ -27,7 +26,7 @@ console.log(`%c author %c ${pkg.author} `,
   "color:#FFF;background:#5c5c5c;border-radius:5px 0 0 5px;padding:5px;margin: 5px 0",
   "color:#FFF;background:#E6A23C;border-radius:0 5px 5px 0;padding:5px;margin: 5px 0"
 );
-console.log(`%c github %c ${pkg.repository.url} `,
+console.log(`%c github %c ${window.location.host} `,
   "color:#FFF;background:#5c5c5c;border-radius:5px 0 0 5px;padding:5px;margin: 5px 0",
   "color:#FFF;background:#409eff;border-radius:0 5px 5px 0;padding:5px;margin: 5px 0"
 );
