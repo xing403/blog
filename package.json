@@ -24,7 +24,7 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "@types/three": "^0.175.0",
+    "@types/three": "^0.177.0",
     "js-yaml": "^4.1.0",
     "plop": "^4.0.1",
     "unocss": "^66.0.0",
