@@ -4,13 +4,14 @@ import { h } from 'vue'
 import XingLy from 'xing-ly'
 import Layout from './Layout.vue'
 import CustomComponents from '../components'
-import ElementPlus from 'element-plus'
+import ElementPlus, { ID_INJECTION_KEY } from 'element-plus'
 
 import 'uno.css'
 import 'xing-ly/dist/style.css'
 import 'element-plus/dist/index.css'
 import './rainbow.css'
 import './style.css'
+
 
 import pkg from "../../package.json"
 
@@ -20,6 +21,10 @@ export default {
   enhanceApp({ app, _router, _siteData }) {
     app.use(ElementPlus)
     app.use(XingLy)
+    app.provide(ID_INJECTION_KEY, {
+      prefix: 1024,
+      current: 0,
+    })
     CustomComponents.forEach(component => app.component(component.name, component))
   }
 }
